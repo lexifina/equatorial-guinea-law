@@ -1,0 +1,7 @@
+# Preámbulo
+
+República de Guinea Ecuatorial BOLETÍN OFICIAL DEL ESTADO NORMATIVA FORESTAL Decreto Núm. 160/1.994, de fecha 15 de Septiembre, por el que se Aprueba el Reglamento de Manejo del Fondo Nacional de Desarrollo Forestal (FONADEFO).
+
+El Decreto Núm. 127/1.990, de fecha 20 de Diciembre, por el que se Aprueba y se Establece el Plan de Relanzamiento de la Producción Forestal, adoptado por la Mesa Redonda sobre Producción Forestal, celebrada en Bata del 11 al 13 de Junio de 1.990, en su Artículo 1º, inciso g) dispone lo siguiente: “Se crea el Fondo Nacional de Desarrollo Forestal (FONADEFO) en base a la integración de las actuales Tasas Forestales de Repoblación, de carreteras forestales y OCIPEF, que deberán ser depositadas en una cuenta especial en un Banco Comercial y manejado en base a un Reglamento AD-HOC redactado por la Comisión Técnica, el Control Financiero y la Tesorería; estos fondos servirán para financiar programas de repoblación forestal, mantenimiento de las carreteras nacionales donde transitan camiones madereros, agro silvicultura y reforzamiento de la administración forestal. Este fondo estará creado al 31 de Enero de 1.991”.
+
+Considerando la necesidad de un mejor manejo y conservación de los recursos naturales para obtener un rendimiento sostenido y racional, en su virtud y a propuesta del Ministerio de Agricultura, Pesca y Alimentación, previa deliberación del Consejo de Ministros en su sesión celebrada el día 9 de Septiembre del año mil novecientos noventa y cuatro, D I S P O N G O:
