@@ -1,0 +1,5 @@
+# Introducción
+Por cuanto que el Artículo 2 de la Ley Fundamental hasta ahora vigente en Guinea Ecuatorial estipula que, la soberanía pertenece al Pueblo, el cual ejerce a través del sufragio universal. De ella emanan los poderes públicos que se ejercen en las condiciones que esta Ley Fundamental y otras Leyes determinan.
+Habiéndose cumplido todas las previsiones del Artículo 103 de la invocada Ley Fundamental relativo al Proyecto de Reforma de dicha Ley, tras su adopción por el Gobierno en Consejo de Ministros, el Pleno de la Cámara de los Representantes del Pueblo en Sesión Extraordinaria y por el Pueblo de Guinea Ecuatorial en Referéndum Popular del día 13 de noviembre de 2.011.
+Conforme a los resultados de dicho Referéndum Popular manifestada por el Pueblo mediante el sufragio universal directo y secreto con un porcentaje de 97,7% de votos a favor del Sí, validados por el Tribunal Constitucional.
+Promulgo esta Ley Fundamental de Guinea Ecuatorial, cuyo texto íntegro se inserta a continuación:
