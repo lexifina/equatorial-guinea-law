@@ -3,7 +3,8 @@
 Título en la fuente: Ley Núm. 10/2.012, de fecha 24 de Diciembre, sobre la Reforma del Ordenamiento General de Trabajo.
 
 - Fecha de la norma: 2012-12-24
-- Fecha del commit (entrada en vigor): 2012-12-24 (in force on publication, as the act provides; dated by the date of the act (2012-12-24), as the BOE publication day is not given by the source)
+- Publicación: Boletín Oficial del Estado Núm. 2, 2013-03-07
+- Fecha del commit (entrada en vigor): 2013-03-07 (in force on publication, as the act provides; dated by publication in the Boletín Oficial del Estado (2013-03-07); issue day as cited by FAOLEX (https://faolex.fao.org/en/documents/LEX-FAOC199363/ley-n-10-2012-ley-sobre-la-reforma-del-ordenamiento-general-gnq-2012))
 - Fuente: <https://boe.gob.gq/files/ORDENAMIENTO%20GENERAL%20DE%20TRABAJO.pdf> (Boletín Oficial del Estado; fuente oficial; texto: publisher PDF text layer)
 - Registro: <https://boe.gob.gq/buscador>
 - Artículos no encontrados en la capa de texto: 32
