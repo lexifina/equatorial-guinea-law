@@ -3,7 +3,8 @@
 Título en la fuente: Ley Núm. 2/2.015, de fecha 28 de Mayo, de Régimen Jurídico de la Administración General del Estado.
 
 - Fecha de la norma: 2015-05-28
-- Fecha del commit (entrada en vigor): 2015-06-17 (20 days after the date of the act (2015-05-28), as the BOE publication day is not given by the source, as the act provides)
+- Publicación: Boletín Oficial del Estado Núm. 2, 2015-07-01
+- Fecha del commit (entrada en vigor): 2015-07-21 (20 days after publication in the Boletín Oficial del Estado (2015-07-01), as the act provides; issue day as cited by FAOLEX (https://faolex.fao.org/en/documents/LEX-FAOC202716/ley-n-2-2015-ley-de-regimen-juridico-de-la-administracion-ge-gnq-2015))
 - Fuente: <https://boe.gob.gq/files/LEY%20DE%20RÉGIMEN%20JURÍCO%20DE%20LA%20ADMINISTRACIÓN%20GENRAL%20DEL%20ESTADO.pdf> (Boletín Oficial del Estado; fuente oficial; texto: publisher PDF text layer)
 - Registro: <https://boe.gob.gq/buscador>
 - Artículos no encontrados en la capa de texto: 5, 7, 9, 10, 12, 13
