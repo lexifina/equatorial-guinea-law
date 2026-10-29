@@ -1,0 +1,786 @@
+{
+ "country": {
+  "code": "GQ",
+  "name": "Equatorial Guinea",
+  "slug": "equatorial-guinea",
+  "lang": "es",
+  "tz": "Africa/Malabo",
+  "future_branch": "futuro",
+  "publisher": {
+   "name": "Boletín Oficial del Estado de Guinea Ecuatorial",
+   "email": "boe@boe-gob-gq.invalid"
+  },
+  "default_in_force_rule": {
+   "text": "Not applied as a general rule. Ley 1/2012, Disposición final: \"La presente Ley Fundamental entrará en vigor a partir de su promulgación por el Presidente de la República, después de haber sido aprobada en Referéndum y su publicación en el Boletín Oficial del Estado\"; it was promulgated in Bata on 16 February 2012, the date under which the BOE lists it. Its BOE publication date is not given by the source.",
+   "source": "https://boe.gob.gq/sites/default/files/2026-10/LEY%20FUNDAMENTAL_0.pdf"
+  },
+  "licence_note": "Text: Ley Núm. 1/2012, de fecha 16 de febrero, sobre la Constitución de la República de Guinea Ecuatorial (Ley Fundamental), as published by the Boletín Oficial del Estado de Guinea Ecuatorial (Presidencia del Gobierno), https://boe.gob.gq. Official text of the Republic of Equatorial Guinea."
+ },
+ "sources": [
+  {
+   "name": "Boletín Oficial del Estado de Guinea Ecuatorial (boe.gob.gq)",
+   "url": "https://boe.gob.gq",
+   "retrieved": "2026-10-29",
+   "requests": 3,
+   "licence": "Official text. The BOE states no licence.",
+   "notes": "Ley Fundamental: \"LEY FUNDAMENTAL_0.pdf\" (linked from the BOE home page, uploaded October 2026; byte-identical to the file at /files/LEY FUNDAMENTAL.pdf that the BOE search lists), 22 pages, made with FPDF 1.82 on 2020-11-27, read from its text layer. The BOE search (POST /resultados, then GET /masresultados) lists two Ley Fundamental documents: Ley 1/2012 and Ley 1/2025 (a scan)."
+  }
+ ],
+ "laws": {
+  "ley-1-2012": {
+   "label": "Ley 1/2012",
+   "kind": "law",
+   "title": "Ley Núm. 1/2012, de fecha 16 de febrero, sobre la Constitución de la República de Guinea Ecuatorial (Ley Fundamental), aprobada en Referéndum Popular el 13 de noviembre de 2011",
+   "enacted": "2012-02-16",
+   "published": null,
+   "url": "https://boe.gob.gq/sites/default/files/2026-10/LEY%20FUNDAMENTAL_0.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-fundamental",
+   "short": "Ley Fundamental",
+   "title": "Ley Fundamental de Guinea Ecuatorial",
+   "url": "https://boe.gob.gq/sites/default/files/2026-10/LEY%20FUNDAMENTAL_0.pdf",
+   "first_law": "ley-1-2012",
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2012-02-16",
+     "source_url": "https://boe.gob.gq/sites/default/files/2026-10/LEY%20FUNDAMENTAL_0.pdf",
+     "sha256": "16d61b73b0c75be95ed62958992bdc09269725015438c09243440ba282a89a25",
+     "units": {
+      "art-001": {
+       "label": "Artículo 1",
+       "kind": "art",
+       "text": "# Artículo 1\n1. Guinea Ecuatorial es un Estado soberano, independiente, republicano, social y democrático, en el que los valores supremos son la Unidad, la Paz, la Justicia, la Libertad y la Igualdad.\n2.- Se reconoce el pluralismo político.\n3.- Su nombre oficial es: REPÚBLICA DE GUINEA ECUATORIAL.\n"
+      },
+      "art-002": {
+       "label": "Artículo 2",
+       "kind": "art",
+       "text": "# Artículo 2\nLa soberanía pertenece al pueblo, el cual la ejerce a través del sufragio universal. De ella emanan los poderes públicos que se ejercen en las condiciones que esta Ley Fundamental y otras Leyes determinan. Ninguna fracción del pueblo o individuo puede atribuirse el ejercicio de la soberanía nacional.\n"
+      },
+      "art-003": {
+       "label": "Artículo 3",
+       "kind": "art",
+       "text": "# Artículo 3\n1. El Territorio de la República de Guinea Ecuatorial se compone de la zona Continental denominada Río Muni y las Islas de Bioko, Annobón, Corisco, Elobey Grande y Elobey Chico, Mbañe, Conga, Leva, Cocotero e Islotes Adyacentes, las Aguas Fluviales, la zona Marítima, la Plataforma Continental que determina la Ley y el espacio aéreo que los cubre.\n2.- Sobre su territorio el Estado ejerce plenamente su soberanía y puede explorar y explotar de manera exclusiva todos los recursos y riquezas minerales y los hidrocarburos.\n3.- El territorio nacional es inalienable e irreducible.\n4.- Se divide para los fines administrativos y económicos en Regiones, Provincias, Distritos y Municipios.\n5.- La Ley determinará los límites y las denominaciones de las Regiones, Provincias, Distritos y Municipios. Igualmente, la Ley fija el espacio que ocupa cada una de las zonas mencionadas.\n"
+      },
+      "art-004": {
+       "label": "Artículo 4",
+       "kind": "art",
+       "text": "# Artículo 4\n1. Las Lenguas oficiales de la República de Guinea Ecuatorial son el Español, el Francés y las que la Ley determine. Se reconocen las Lenguas Autóctonas como integrantes de la cultura nacional.\n2.- La Bandera Nacional es verde, blanca y roja, en tres franjas horizontales de iguales dimensiones, y un triángulo azul en el extremo más próximo al mástil. En el centro de la Bandera está grabado el Escudo de la República.\n3.- El Escudo de la República es el que establece la Ley.\n4.- El Lema de la República es Unidad, Paz y Justicia.\n5.- El Himno Nacional es el cantado por el Pueblo el día de la Proclamación de la Independencia el 12 de octubre de 1.968.\n"
+      },
+      "art-005": {
+       "label": "Artículo 5",
+       "kind": "art",
+       "text": "# Artículo 5\nLos fundamentos de la sociedad ecuatoguineana son:\na) El respeto a la persona humana, a su dignidad y libertad, y demás derechos fundamentales.\nb) La protección de la familia, célula básica de la sociedad ecuatoguineana.\nc) El reconocimiento del derecho de igualdad entre el hombre y la mujer.\nd) La protección del trabajo a través del cual el hombre desarrolla su personalidad creadora de riqueza de la nación para el bienestar social.\ne) La promoción del desarrollo económico Nacional.\nf) La promoción del desarrollo social y cultural de los ciudadanos ecuatoguineanos para que se hagan reales en ellos los valores supremos del Estado.\n"
+      },
+      "art-006": {
+       "label": "Artículo 6",
+       "kind": "art",
+       "text": "# Artículo 6\nEl Estado fomenta y promueve la cultura, la creación artística, la investigación científica y tecnológica y vela por la conservación de la naturaleza, el patrimonio cultural de la riqueza artística e histórica de la Nación.\n"
+      },
+      "art-007": {
+       "label": "Artículo 7",
+       "kind": "art",
+       "text": "# Artículo 7\nEl Estado defiende la soberanía de la Nación, refuerza su unidad y asegura el respeto de los derechos fundamentales del hombre y la promoción del progreso económico, social y cultural de los ciudadanos.\n"
+      },
+      "art-008": {
+       "label": "Artículo 8",
+       "kind": "art",
+       "text": "# Artículo 8\nEl Estado ecuatoguineano acata los principios del Derecho Internacional y reafirma su adhesión a los derechos y obligaciones que emanan de las cartas de las Organizaciones y Organismos Internacionales a los que se ha adherido.\n"
+      },
+      "art-009": {
+       "label": "Artículo 9",
+       "kind": "art",
+       "text": "# Artículo 9\n1. Los Partidos Políticos son organizaciones políticas integradas por personas que libremente se asocian para participar en la orientación política del Estado. Constituyen la expresión del pluralismo político y de la democracia; concurren a la formación y manifestación de la voluntad popular, como instrumentos fundamentales para la participación política.\n2.- Los Partidos Políticos de Guinea Ecuatorial no podrán tener idéntica denominación como aquellos que preexisten al 12 de octubre de 1.968, y deberán tener carácter y ámbito nacional, por lo que no podrán tener por base la tribu, étnia, región, distrito, municipio, provincia, sexo, religión, condición social ni profesional u oficio. Una Ley regulará su creación y funcionamiento.\n"
+      },
+      "art-010": {
+       "label": "Artículo 10",
+       "kind": "art",
+       "text": "# Artículo 10\nEl derecho a la huelga es reconocido y se ejerce en las condiciones previstas por la Ley.\n"
+      },
+      "art-011": {
+       "label": "Artículo 11",
+       "kind": "art",
+       "text": "# Artículo 11\nLos ciudadanos, los poderes públicos, los Partidos Políticos, los sindicatos, las asociaciones y otras personas jurídicas están sujetos a la Ley Fundamental y al Ordenamiento Jurídico.\n"
+      },
+      "art-012": {
+       "label": "Artículo 12",
+       "kind": "art",
+       "text": "# Artículo 12\n1. La Ley determina el régimen jurídico aplicable al derecho de la Nacionalidad, la ciudadanía y la condición de extranjero.\n2.- La mayoría de edad del ciudadano ecuatoguineano se adquiere a los 18 años.\n"
+      },
+      "art-013": {
+       "label": "Artículo 13",
+       "kind": "art",
+       "text": "# Artículo 13\n1. Todo ciudadano goza de los siguientes derechos y libertades:\na) El respeto a su persona, su vida, su integridad personal, su dignidad y su pleno desenvolvimiento material y moral. La pena de muerte solo puede imponerse por delito contemplado por la Ley.\nb) A la libertad de expresión, de pensamiento, ideas y opiniones.\nc) A la igualdad ante la Ley. La mujer, cualquiera que sea su estado civil, tiene iguales derechos y oportunidades que el hombre en todos los órdenes de la vida pública, privada y familiar, en lo civil, político, económico, social y cultural.\nd) A la libre circulación y residencia.\ne) Al honor y a la buena reputación.\nf) A la libertad de religión y culto.\ng) A la inviolabilidad del domicilio y al secreto de las comunicaciones.\nh) A presentar quejas y peticiones a las autoridades.\ni) Al derecho de Habeas Corpus y de Amparo.\nj) A la defensa ante los Tribunales y a un proceso contradictorio dentro del marco de respeto de la Ley.\nk) A la libre asociación, reunión y manifestación.\nl) A la libertad de trabajo.\nm) A no ser privado de su libertad sino en virtud de orden judicial, salvo en los casos previstos por la Ley y los de delito flagrante.\nn) A ser informado de la causa o razones de su detención.\no) A presumirse inocente mientras no se haya demostrado legalmente su culpabilidad.\np) A no declarar en juicio contra sí mismo, o sus parientes dentro del cuarto grado de consanguinidad o segundo de afinidad, o compelido a declarar con juramento en contra de sí mismo en asuntos que pueden ocasionarle responsabilidad penal.\nq) A no ser juzgado ni condenado dos veces por los mismos hechos.\nr) A no ser condenado sin juicio previo, ni privado del derecho de defensa en cualquier estado o grado del proceso.\ns) A no ser castigado por un acto u omisión que en el momento de cometerse no estuviese tipificado ni castigado como infracción penal; ni se le puede aplicar una pena no prevista en la Ley. En caso de duda, la Ley Penal se aplica en el sentido más favorable al reo.\n2.- Sobre la base del principio de la igualdad de la mujer ante la Ley, los poderes públicos adoptarán iniciativas legales y mecanismos para favorecer la adecuada representación y participación de la Mujer en el desempeño de los cargos y demás funciones en todas las Instituciones del Estado.\n3.- Las Disposiciones legales definirán las condiciones del ejercicio de estos derechos y libertades.\n"
+      },
+      "art-014": {
+       "label": "Artículo 14",
+       "kind": "art",
+       "text": "# Artículo 14\nLa enumeración de los derechos fundamentales reconocidos en este capítulo no excluye los demás que la Ley Fundamental garantiza, ni otros de naturaleza análoga y que se derivan de la dignidad del hombre, del principio de soberanía del pueblo o del estado social y democrático de derecho y de la forma republicana del Estado.\n"
+      },
+      "art-015": {
+       "label": "Artículo 15",
+       "kind": "art",
+       "text": "# Artículo 15\n1. Cualquier acto de parcialidad o de discriminación debidamente constatado por motivos tribales, étnicos, sexo, religiosos, sociales, políticos u otros análogos es punible o castigado por la Ley.\n2.- Los actos de corrupción también serán castigados por Ley.\n"
+      },
+      "art-016": {
+       "label": "Artículo 16",
+       "kind": "art",
+       "text": "# Artículo 16\n1. Todos los ecuatoguineanos tienen el deber de honrar a la Patria, defender su soberanía, la integridad territorial y a la unidad nacional, así como contribuir a la preservación de la paz, la seguridad nacional y los valores esenciales de la tradición ecuatoguineana y proteger los intereses nacionales.\n2.- El servicio militar es obligatorio. Será regulado por la Ley.\n"
+      },
+      "art-017": {
+       "label": "Artículo 17",
+       "kind": "art",
+       "text": "# Artículo 17\nTodo ciudadano tiene el derecho y el deber de vivir pacíficamente en la República de Guinea Ecuatorial, respetar los derechos de los demás y contribuir a la formación de una sociedad justa, fraterna y solidaria.\n"
+      },
+      "art-018": {
+       "label": "Artículo 18",
+       "kind": "art",
+       "text": "# Artículo 18\nTodos los habitantes de la República deben respetar a Guinea Ecuatorial, a sus enseñas nacionales, al Jefe del Estado, Gobierno y demás instituciones legalmente constituidos.\n"
+      },
+      "art-019": {
+       "label": "Artículo 19",
+       "kind": "art",
+       "text": "# Artículo 19\n1. El Estado a través de la Ley Tributaria, inspirada en los principios básicos de igualdad, generalidad y prosperidad, establece los impuestos, gravámenes y exacciones parafiscales y las circunstancias especiales que concurren en cada figura impositiva para su liquidación.\n2.- Todas las personas físicas o jurídicas, nacionales o extranjeras, residentes en la República de Guinea Ecuatorial tienen la obligación de pagar impuestos por Ley.\n"
+      },
+      "art-020": {
+       "label": "Artículo 20",
+       "kind": "art",
+       "text": "# Artículo 20\n1. Todo ecuatoguineano tiene el deber de soportar proporcionalmente a sus facultades contributivas las cargas financieras públicas establecidas por la Ley.\n2.- Los ingresos y gastos del Estado y el programa de inversiones son inscritos en cada ejercicio financiero en un presupuesto anual elaborado conforme a la legislación aplicada.\n"
+      },
+      "art-021": {
+       "label": "Artículo 21",
+       "kind": "art",
+       "text": "# Artículo 21\nTodo ciudadano tiene el deber de respetar, cumplir y defender la Ley Fundamental y el Ordenamiento Jurídico de la Nación.\n"
+      },
+      "art-022": {
+       "label": "Artículo 22",
+       "kind": "art",
+       "text": "# Artículo 22\n1. El Estado protege la familia como célula fundamental de la sociedad, le asegura las condiciones morales, culturales y económicas que favorecen la realización de sus objetivos.\n2.- Protege igualmente toda clase de matrimonio celebrado conforme al derecho, así como la maternidad y el deber familiar.\n"
+      },
+      "art-023": {
+       "label": "Artículo 23",
+       "kind": "art",
+       "text": "# Artículo 23\n1. El Estado protege a la persona desde su concepción y ampara al menor para que pueda desenvolverse normalmente y con seguridad para su integridad moral, mental y física, así como su vida en el hogar.\n2. El Estado fomenta y promueve la atención primaria de la salud como piedra angular del desarrollo de la estrategia de dicho sector.\n"
+      },
+      "art-024": {
+       "label": "Artículo 24",
+       "kind": "art",
+       "text": "# Artículo 24\n1. La educación es un deber primordial del Estado. Todo ciudadano tiene derecho a la educación primaria, que es obligatoria, gratuita y garantizada.\n2.- El alcance de la gratuidad de la educación se fija por la Ley.\n3.- El Estado garantiza a toda persona, entidad privada o comunidad religiosa, legalmente constituida, el derecho a fundar escuelas, siempre que se someta al plan pedagógica oficial.\n4.- La enseñanza oficial admite la libre elección de programa de formación religiosa, en base a la libertad de conciencia y de religión que ampara esta Ley Fundamental.\n5.- La enseñanza reconocida oficialmente no puede orientarse a programar ni prorrogar ninguna tendencia ideológica o partidista.\n"
+      },
+      "art-025": {
+       "label": "Artículo 25",
+       "kind": "art",
+       "text": "# Artículo 25\nEl Estado propugna la paternidad responsable y la educación apropiada para la promoción de la familia.\n"
+      },
+      "art-026": {
+       "label": "Artículo 26",
+       "kind": "art",
+       "text": "# Artículo 26\n1. El trabajo es un derecho y un deber social. El Estado reconoce su función constructiva para el mejoramiento del bienestar y el desarrollo de la riqueza nacional. El Estado promueve las condiciones económicas y sociales para hacer desaparecer la pobreza, la miseria, y asegura con igualdad a los ciudadanos de la República de Guinea Ecuatorial las posibilidades de una ocupación útil que les permita no estar acosados por la necesidad.\n2.- La Ley definirá las condiciones del ejercicio de este derecho.\n"
+      },
+      "art-027": {
+       "label": "Artículo 27",
+       "kind": "art",
+       "text": "# Artículo 27\n1. El sistema económico de la República de Guinea Ecuatorial se basa sobre el principio de libre mercado y de la libre empresa.\n2.- La Ley regula estas libertades de conformidad con las exigencias del desarrollo económico y social.\n3.- El Estado protege, garantiza y controla la inversión de Capital Extranjero que contribuye al desarrollo del País.\n"
+      },
+      "art-028": {
+       "label": "Artículo 28",
+       "kind": "art",
+       "text": "# Artículo 28\nLa economía de la República de Guinea Ecuatorial funcionará a través de cuatro sectores básicos:\na) El Sector Público, compuesto por empresas de propiedad exclusiva del Estado, constituidas principalmente para la explotación de los recursos y servicios enumerados en el artículo 29 de esta Ley Fundamental, así como para cualquier otra actividad económica.\nb) El Sector de Economía Mixta, integrado por empresas del Capital Público en asociación del Capital Privado.\nc) El Sector Cooperativo, cuya propiedad y gestión pertenecen a la comunidad de personas que trabajan permanentemente en ellas. El Estado dicta Leyes para la regulación y desarrollo de este sector.\nd) El Sector Privado, integrado por empresas cuya propiedad corresponde a una o varias personas físicas o jurídicas de derecho privado y, en general, por empresas que están comprendidas en otros sectores anteriormente enumerados.\n"
+      },
+      "art-029": {
+       "label": "Artículo 29",
+       "kind": "art",
+       "text": "# Artículo 29\n1. Son recursos y servicios reservados al sector público:\na) Los minerales e hidrocarburos\nb) Los servicios de suministros de agua potable y electricidad.\nc) Los servicios de correos, telecomunicaciones y transportes.\nd) La radio-difusión y la televisión.\ne) Otros que la Ley determine.\n2.- El Estado puede delegar, conceder o asociarse a la iniciativa privada para el desarrollo de cualquiera de las actividades o servicios antes mencionados, en la forma y casos que la Ley establece.\n"
+      },
+      "art-030": {
+       "label": "Artículo 30",
+       "kind": "art",
+       "text": "# Artículo 30\n1. El Estado reconoce la propiedad de carácter público y privado.\n2.- El derecho a la propiedad queda garantizado y protegido sin más limitaciones que las establecidas por la Ley.\n3.- La propiedad es inviolable, ninguna persona puede ser privada de sus bienes y derechos, salvo por causas de utilidad pública y correspondiente indemnización.\n4.- El Estado garantiza a los agricultores la propiedad tradicional de las tierras que poseen.\n5.- La Ley fijará el régimen jurídico de los bienes de dominio público.\n"
+      },
+      "art-031": {
+       "label": "Artículo 31",
+       "kind": "art",
+       "text": "# Artículo 31\n1. El Estado ejerce su soberanía a través de los siguientes poderes: el Poder Ejecutivo, el Poder Legislativo y el Poder Judicial.\n2.- La Ley desarrolla las facultades y funciones de cada uno de estos poderes.\n"
+      },
+      "art-032": {
+       "label": "Artículo 32",
+       "kind": "art",
+       "text": "# Artículo 32\n1. El Estado ejerce sus funciones a través del Presidente de la República, el Vice-Presidente de la República, el Consejo de Ministros, la Cámara de los Diputados, el Senado, el Poder Judicial, el Tribunal Constitucional, el Consejo Superior del Poder Judicial, el Consejo de la República, el Consejo Nacional para el Desarrollo Económico y Social, el Tribunal de Cuentas, el Defensor del Pueblo y los demás Órganos creados conforme a la Ley Fundamental y otras Leyes.\n2.- La Ley desarrolla las competencias y el funcionamiento de estos órganos.\n3.- El Presidente de la República podrá designar un Primer Ministro de entre los Miembros del Gobierno para encargarse de la Coordinación Administrativa, la presentación de Leyes y otras disposiciones del Ejecutivo ante el Parlamento, así como otras funciones que le delegue.\n"
+      },
+      "art-033": {
+       "label": "Artículo 33",
+       "kind": "art",
+       "text": "# Artículo 33\n1. El Presidente de la República es el Jefe de Estado, ejerce el Poder Ejecutivo como Jefe de Gobierno. Encarna la unidad nacional, define la política de la Nación, vela por el respeto de la Ley Fundamental, asegura con su arbitraje el funcionamiento de los poderes públicos, representa a la Nación y es el garante de la Independencia Nacional. Es elegido por sufragio universal, directo y secreto por mayoría simple de los votos válidamente emitidos.\n2.- La Ley fija las condiciones del desarrollo del proceso electoral.\n3.- El Presidente de la República está asistido de un Vice-Presidente de la República, en quien puede delegar algunas de sus facultades Constitucionales.\n4.- Antes del desempeño de sus funciones, el nombramiento del Vice-Presidente de la República es ratificado por ambas Cámaras del Parlamento en Pleno y por mayoría simple de sus miembros en el curso de una Sesión Extraordinaria convocada al efecto por el Presidente de la República.\n"
+      },
+      "art-034": {
+       "label": "Artículo 34",
+       "kind": "art",
+       "text": "# Artículo 34\nLa persona del Jefe de Estado es inviolable. La Ley regula los privilegios e inmunidades de los Jefes de Estado después de su mandato.\n"
+      },
+      "art-035": {
+       "label": "Artículo 35",
+       "kind": "art",
+       "text": "# Artículo 35\nPara ser Presidente de la República se requiere:\na) Ser ecuatoguineano de origen.\nb) Estar en gozo del derecho de la ciudadanía.\nc) Tener arraigo en el País durante cinco años ininterrumpidos.\nd) Saber interpretar la Ley Fundamental.\ne) Haber sido elegido conforme a esta Ley Fundamental y demás Leyes.\nf) Tener cuarenta años como mínimo.\ng) No tener ninguna otra nacionalidad.\n"
+      },
+      "art-036": {
+       "label": "Artículo 36",
+       "kind": "art",
+       "text": "# Artículo 36\n1. El Presidente de la República es elegido por un periodo de siete años, pudiendo ser reelegido.\n2.- El mandato del Presidente de la República está limitado en dos periodos consecutivos, no pudiendo presentarse por un tercer mandato hasta que se produzca la alternancia.\n3.- Las Elecciones Presidenciales se convocarán el séptimo año del mandato del Presidente de la República en una fecha fijada por Decreto acordado en Consejo de Ministros.\n4.- Las Elecciones tienen lugar cuarenta y cinco días antes de la expiración de los Poderes del Presidente en ejercicio o, a más tardar, dentro de los setenta días siguientes a dicha fecha.\n"
+      },
+      "art-037": {
+       "label": "Artículo 37",
+       "kind": "art",
+       "text": "# Artículo 37\n1. El Presidente electo, en el tiempo máximo de treinta días de proclamarse los resultados de las elecciones, presta el juramento de fidelidad a la Ley Fundamental y asume el cargo ante la Corte de Honor compuesta por las Mesas de la Cámara de los Diputados y del Senado, la Corte Suprema de Justicia en Pleno y el Tribunal Constitucional en Pleno.\n2.- Celebradas las Elecciones Presidenciales, el Presidente de la República electo nombrará un nuevo Gobierno.\n"
+      },
+      "art-038": {
+       "label": "Artículo 38",
+       "kind": "art",
+       "text": "# Artículo 38\nEl Presidente de la República determina la política de la Nación, arbitra y modera el funcionamiento normal de todas las Instituciones del Estado. Su autoridad se extiende a todo el territorio nacional.\n"
+      },
+      "art-039": {
+       "label": "Artículo 39",
+       "kind": "art",
+       "text": "# Artículo 39\nEl Presidente de la República ejerce el poder reglamentario en Consejo de Ministros.\n"
+      },
+      "art-040": {
+       "label": "Artículo 40",
+       "kind": "art",
+       "text": "# Artículo 40\nEl Presidente de la República sanciona y promulga las Leyes, ejerce el derecho de veto en los términos previstos en esta Ley Fundamental.\n"
+      },
+      "art-041": {
+       "label": "Artículo 41",
+       "kind": "art",
+       "text": "# Artículo 41\nEl Presidente de la República ejerce, además los siguientes poderes:\na) Garantiza la aplicación de esta Ley Fundamental, el funcionamiento de los poderes públicos y la continuidad del Estado.\nb) Convoca y preside el Consejo de Ministros.\nc) Dicta en Consejo de Ministros, Decretos-Leyes y Decretos, en los términos establecidos en esta Ley Fundamental.\nd) Es el Jefe Supremo de las Fuerzas Armadas y de la Seguridad del Estado. El Presidente de la República garantiza la Seguridad del Estado en el exterior.\ne) Declara la guerra y concluye la paz.\nf) El Presidente de la República nombra y separa libremente al Vice-Presidente de la República. El Vice-Presidente de la República debe pertenecer al Partido del Presidente de la República.\ng) Ratifica la decisión de la Cámara de los Diputados y del Senado sobre la elección y cese de los Presidentes y demás Miembros de sus respectivas Mesas, conforme a esta Ley Fundamental y el propio Reglamento de ambas Cámaras.\nh) Nombra y separa a los altos cargos civiles y militares, pudiendo delegar en el Vice-Presidente de la República o el Primer Ministro, el nombramiento de otros cargos civiles y militares.\ni) Negocia y firma los Acuerdos y Tratados Internacionales; conforme a esta Ley Fundamental.\nj) Representa a Guinea Ecuatorial en las relaciones internacionales, recibe y acredita a los Embajadores y autoriza a los Cónsules el ejercicio de sus funciones.\nk) Confiere Títulos, Honores y Condecoraciones del Estado.\nl) Ejerce el derecho de gracia.\nm) Convoca las Elecciones Generales previstas en esta Ley Fundamental.\nn) Convoca el Referéndum conforme a esta Ley Fundamental.\no) Aprueba en Consejo de Ministros los planes nacionales de desarrollo.\np) Dispone la disolución de la Cámara de los Diputados y del Senado conforme a las disposiciones de esta Ley Fundamental.\nq) Ejerce las demás atribuciones y prerrogativas que le confieren las Leyes.\n"
+      },
+      "art-042": {
+       "label": "Artículo 42",
+       "kind": "art",
+       "text": "# Artículo 42\nCon la finalidad de velar por la integridad territorial y conservar el orden público, dependen absolutamente y a todos los efectos del Presidente de la República, todas las Fuerzas Armadas Nacionales, Fuerzas de la Seguridad del Estado y Fuerzas de Orden Público.\n"
+      },
+      "art-043": {
+       "label": "Artículo 43",
+       "kind": "art",
+       "text": "# Artículo 43\nEn caso de peligro inminente, cuando se acuerde la declaración del estado de excepción o de sitio, el Presidente de la República puede suspender por un tiempo máximo de tres meses los derechos y garantías establecidos en esta Ley Fundamental y tomar medidas excepcionales para salvaguardar la integridad territorial, la independencia nacional, las Instituciones del Estado y el funcionamiento de los servicios y poderes públicos informándolo al Pueblo por mensaje. El referido plazo de tres meses será prorrogado hasta que desaparezcan las causas que motivaron dicha suspensión.\n"
+      },
+      "art-044": {
+       "label": "Artículo 44",
+       "kind": "art",
+       "text": "# Artículo 44\n1. El Presidente de la República, cuando las circunstancias lo demanden, podrá declarar mediante Decreto el estado de alarma, el estado de excepción o de sitio, informándolo a la Cámara de los Diputados y al Senado.\n2.- La proclamación del estado de alarma, de excepción o de sitio deberá determinar expresamente los efectos del mismo y el ámbito territorial a que se extiende su duración.\n3.- La Ley regula los estados de alarma, de excepción y de sitio, así como las competencias y limitaciones correspondientes.\n4.- No podrá proceder a disolución de las Cámaras del Parlamento mientras están declarados algunos de los estados comprendidos en el presente artículo.\n5.- Por la actuación de bandas armadas o de elementos terroristas, con la necesaria intervención judicial y el adecuado control parlamentario, los derechos y garantías reconocidos en la Ley Fundamental podrán ser suspendidos de forma individual o colectiva para personas determinadas conforme a la Ley.\n"
+      },
+      "art-045": {
+       "label": "Artículo 45",
+       "kind": "art",
+       "text": "# Artículo 45\n1. Las funciones del Presidente de la República cesarán por:\na) Dimisión\nb) Expiración del mandato previsto en las condiciones reguladas por esta Ley Fundamental.\nc) Incapacidad física o mental permanente.\nd) Muerte.\n2.- En caso de vacancia en el Poder por los motivos a), c) y d), el Vice-Presidente de la República asume las funciones de Presidente de la República.\n3.- En el plazo máximo de veinticuatro horas de producirse la vacancia, el nuevo Presidente de la República presta juramento de fidelidad a la Ley Fundamental y asume el cargo ante la Corte de Honor compuesta por las Mesas de la Cámara de los Diputados y del Senado, la Corte Suprema de Justicia en Pleno y el Tribunal Constitucional en Pleno, para culminar el mandato del Presidente de la República sustituido.\n"
+      },
+      "art-046": {
+       "label": "Artículo 46",
+       "kind": "art",
+       "text": "# Artículo 46\nPara el ejercicio de la función política y administrativa, el Presidente de la República preside el Consejo de Ministros, constituido por el Vice-Presidente de la República, el Primer Ministro y demás Miembros del Gobierno.\n"
+      },
+      "art-047": {
+       "label": "Artículo 47",
+       "kind": "art",
+       "text": "# Artículo 47\n1. El Consejo de Ministros es el órgano que ejerce la política general de la Nación determinada por el Presidente de la República, asegura la aplicación de las Leyes y asiste de modo permanente al Presidente de la República en los asuntos políticos, económicos y administrativos.\n2.- La Ley determina el número de los Ministerios, sus denominaciones, así como las competencias atribuidas a cada uno.\n"
+      },
+      "art-048": {
+       "label": "Artículo 48",
+       "kind": "art",
+       "text": "# Artículo 48\nLa dirección, gestión y administración de los servicios públicos se confía a los Ministros en los asuntos que competen a los Departamentos de sus respectivos ramos.\n"
+      },
+      "art-049": {
+       "label": "Artículo 49",
+       "kind": "art",
+       "text": "# Artículo 49\nFuera de los casos expresamente definidos en esta Ley Fundamental y los que son determinados por las demás Leyes, el Consejo de Ministros tiene las siguientes atribuciones:\na) Dirigir la política de la Nación determinada por el Presidente de la República, organizando y ejecutando actividades económicas, culturales, científicas y sociales.\nb) Promover los planes de desarrollo socio-económico del Estado y, una vez aprobados por la Cámara de los Diputados y el Senado y refrendados por el Presidente de la República, organizar, dirigir y controlar su ejecución.\nc) Elaborar el Proyecto de Presupuesto General del Estado, y una vez aprobado por la Cámara de los Diputados y el Senado, y sancionado por el Presidente de la República, velar por su ejecución.\nd) Adoptar la política monetaria y tomar las medidas para proteger y fortalecer el régimen monetario y financiero de la Nación.\ne) Elaborar los Proyectos de Leyes y someterlos a la aprobación de la Cámara de los Diputados y del Senado.\nf) Conceder asilo territorial.\ng) Dirigir la Administración del Estado, coordinando y fiscalizando las actividades de los diferentes Departamentos que la integran.\nh) Velar por la ejecución de las Leyes y demás disposiciones de carácter general que integran el Ordenamiento Jurídico de la Nación.\ni) Crear las Comisiones necesarias para el cumplimiento de las atribuciones que le están conferidas.\n"
+      },
+      "art-050": {
+       "label": "Artículo 50",
+       "kind": "art",
+       "text": "# Artículo 50\n1. El Vice-Presidente de la República, el Primer Ministro y los Miembros del Gobierno, por su gestión son responsables de forma solidaria ante la Ley, ante el Presidente de la República, ante la Cámara de los Diputados y el Senado, sin perjuicio de la responsabilidad individual de cada uno ante la Ley.\n2.- La responsabilidad civil y penal del Presidente de la República y Jefe de Gobierno, del Vice-Presidente de la República, el Primer Ministro y de todos los Miembros del Gobierno se exigirá conforme a la Ley.\n3.- De los actos del Presidente de la República, Jefe de Estado y del Gobierno, serán responsables quienes los refrenden.\n"
+      },
+      "art-051": {
+       "label": "Artículo 51",
+       "kind": "art",
+       "text": "# Artículo 51\nSon Miembros del Gobierno, junto con el Presidente de la República y Jefe de Gobierno:\na) El Vice-Presidente de la República\nb) El Primer Ministro\nc) Los Vice-Primeros Ministros\nd) Los Ministros de Estado\ne) Los Ministros\nf) Los Ministros Delegados\ng) Los Vice-Ministros\nh) Los Secretarios de Estado.\n"
+      },
+      "art-052": {
+       "label": "Artículo 52",
+       "kind": "art",
+       "text": "# Artículo 52\nAntes de tomar posesión de sus funciones, el Vice-Presidente de la República, el Primer Ministro y los demás Miembros del Gobierno prestan juramento de fidelidad ante el Presidente de la República, a su persona y a esta Ley Fundamental.\n"
+      },
+      "art-053": {
+       "label": "Artículo 53",
+       "kind": "art",
+       "text": "# Artículo 53\nEl Consejo de Ministros en Pleno y los Ministros separadamente, pueden concurrir con voz sin voto a los debates de la Cámara de los Diputados y del Senado. Concurren también cuando son invitados para informar.\n"
+      },
+      "art-054": {
+       "label": "Artículo 54",
+       "kind": "art",
+       "text": "# Artículo 54\nLa potestad de legislar reside en el Pueblo, quien la delega en el Parlamento por medio de sufragio universal y que la ejerce dentro del marco de las competencias que señala la presente Ley Fundamental.\n"
+      },
+      "art-055": {
+       "label": "Artículo 55",
+       "kind": "art",
+       "text": "# Artículo 55\nEl Parlamento ejerce el Poder Legislativo del Estado. Está integrado por dos Cámaras: la Cámara de los Diputados y el Senado. Ambos Órganos concurren a la formulación de las Leyes y actúan separada y conjuntamente en la forma que establece esta Ley Fundamental y demás Leyes en el ejercicio de sus funciones y competencias respectivas.\n"
+      },
+      "art-056": {
+       "label": "Artículo 56",
+       "kind": "art",
+       "text": "# Artículo 56\n1. Los Diputados y los Senadores son elegidos por un mandato de cinco años mediante sufragio universal, directo y secreto en Elecciones Generales que se celebran en un solo día, y dentro de sesenta días antes o después de la expiración de su mandato.\n2.- Los escaños de los Diputados y de los Senadores se atribuyen a cada lista de candidatura por el sistema de representación que determine la Ley.\n3.- La Ley Electoral determina el número de escaños correspondientes a cada circunscripción electoral, el régimen de elegibilidad e inelegibilidad y compatibilidad e incompatibilidad de los Diputados y Senadores, y desarrolla los demás aspectos del proceso electoral.\n"
+      },
+      "art-057": {
+       "label": "Artículo 57",
+       "kind": "art",
+       "text": "# Artículo 57\nLos Diputados y los Senadores no están ligados por mandato imperativo.\n"
+      },
+      "art-058": {
+       "label": "Artículo 58",
+       "kind": "art",
+       "text": "# Artículo 58\nLos Diputados y los Senadores tienen derecho de enmienda y de voto. El voto es personal.\n"
+      },
+      "art-059": {
+       "label": "Artículo 59",
+       "kind": "art",
+       "text": "# Artículo 59\nEl Presidente de la República, después de consultas con el Gobierno y las Mesas de ambas Cámaras, puede someter a consulta popular cualquier cuestión que requiera la consulta directa del Pueblo. El proyecto así adoptado, es promulgado por el Presidente de la República.\n"
+      },
+      "art-060": {
+       "label": "Artículo 60",
+       "kind": "art",
+       "text": "# Artículo 60\nEl Presidente de la República, en Consejo de Ministros, puede disponer la disolución de la Cámara de los Diputados y del Senado y ordenar la convocatoria de Elecciones Generales anticipadas. Si la disolución de la Cámara de los Diputados y del Senado se hubiera producido durante el último año del periodo para el que fueran elegidos sus Miembros, la elección de sus miembros tiene lugar conforme a las disposiciones de la presente Ley Fundamental.\n"
+      },
+      "art-061": {
+       "label": "Artículo 61",
+       "kind": "art",
+       "text": "# Artículo 61\nLas plazas vacantes que se produzcan en la Cámara de los Diputados y en el Senado son cubiertas conforme a las disposiciones de la Ley Electoral.\n"
+      },
+      "art-062": {
+       "label": "Artículo 62",
+       "kind": "art",
+       "text": "# Artículo 62\n1. Ningún Diputado o Senador puede ser perseguido ni detenido durante y después, por las opiniones que haya emitido, en el ejercicio de sus funciones en la Cámara de los Diputados o en el Senado, respectivamente.\n2.- Ninguna autoridad gubernativa o judicial puede detener o procesar a un diputado o Senador sin el requisito indispensable de la obtención del previo suplicatorio de la Mesa de la Cámara respectiva, salvo caso de delito flagrante.\n"
+      },
+      "art-063": {
+       "label": "Artículo 63",
+       "kind": "art",
+       "text": "# Artículo 63\n1. La Cámara de los Diputados y el Senado se reúnen de pleno derecho el primer día laboral después de haber transcurrido treinta días desde la promulgación de los resultados de las Elecciones Generales.\n2.- El Orden del día de esta primera reunión está dedicado exclusivamente a la elección de los Presidentes y demás Miembros de las Mesas respectivas, salvo que el Gobierno solicite la inclusión en el mismo de asuntos urgentes.\n"
+      },
+      "art-064": {
+       "label": "Artículo 64",
+       "kind": "art",
+       "text": "# Artículo 64\n1. La Cámara de los Diputados y el Senado se reúnen dos veces al año, una en el mes de enero y otra en el mes de Julio, durante un tiempo máximo de cinco meses de periodo de sesiones.\n2.- Para celebrar sesiones, se requiere la asistencia de la mitad mas uno de los Miembros de la Cámara de los Diputados y el Senado, y los acuerdos se toman por mayoría simple de votos de los presentes.\n"
+      },
+      "art-065": {
+       "label": "Artículo 65",
+       "kind": "art",
+       "text": "# Artículo 65\nLa apertura y clausura de cada periodo de sesiones, tanto ordinario como extraordinario son acordadas por Decreto del Presidente de la República, de acuerdo con las Mesas de ambas Cámaras.\n"
+      },
+      "art-066": {
+       "label": "Artículo 66",
+       "kind": "art",
+       "text": "# Artículo 66\nLos debates de las Sesiones Plenarias de la Cámara de los Diputados y del Senado son públicos.\n"
+      },
+      "art-067": {
+       "label": "Artículo 67",
+       "kind": "art",
+       "text": "# Artículo 67\nA petición del Gobierno o de las tres cuartas partes de los Diputados o Senadores, la Cámara de los Diputados y el Senado pueden celebrar determinadas sesiones a puerta cerrada por razones de confidencialidad o de seguridad.\n"
+      },
+      "art-068": {
+       "label": "Artículo 68",
+       "kind": "art",
+       "text": "# Artículo 68\n1. La iniciativa legislativa corresponde al Presidente de la República en Consejo de Ministros y a los Diputados y Senadores en la forma que la Ley determine.\n2.- Las proposiciones de Leyes emanadas de los Diputados y Senadores son depositadas en la Mesa de la Cámara de los Diputados y del Senado conforme establecen los Reglamentos Internos respectivos y transmitidas al Gobierno para su estudio.\n"
+      },
+      "art-069": {
+       "label": "Artículo 69",
+       "kind": "art",
+       "text": "# Artículo 69\nA parte de los casos expresamente previstos en otros artículos de esta Ley Fundamental, son materias reservadas a la Ley, las siguientes:\na) La regulación del ejercicio de los derechos y deberes de los ciudadanos.\nb) El régimen de expropiación forzosa de los bienes con vista a su utilidad pública.\nc) La nacionalidad, el estado y capacidad de las personas, los regímenes matrimoniales y las sucesiones.\nd) La organización judicial, la creación de nuevos órganos de jurisdicción y los Estatutos de los Magistrados y del Ministerio Público.\ne) El régimen penitenciario, la amnistía y la determinación de los delitos, así como las penas que le son aplicables.\nf) El régimen de asociación, los Partidos Políticos y los sindicatos.\ng) El régimen de emisión y de impresión de la moneda, sellos y Timbres del Estado.\nh) La organización administrativa y la financiera general.\ni) Las condiciones de participación del Estado en las empresas mixtas y a la gestión de las mismas.\nj) El régimen del patrimonio público.\nk) El régimen de las libertades de las personas, de la propiedad, de las concesiones, de los derechos reales, y de las obligaciones civiles y comerciales.\nl) Los créditos y las obligaciones fiscales del Estado.\nm) El programa de acción económica y social.\nn) Los principios fundamentales de la educación, la cultura, el derecho laboral y la seguridad social.\no) La regulación de pesas y medidas.\n"
+      },
+      "art-070": {
+       "label": "Artículo 70",
+       "kind": "art",
+       "text": "# Artículo 70\n1. Los Presupuestos Generales del Estado presentados por el Gobierno en el curso de la segunda Sesión son votados por la Cámara de los Diputados y el Senado. En caso de no fueran aprobados antes de la expiración del ejercicio financiero en curso, el Presidente de la República puede prorrogar la Ley Presupuestaria del año precedente hasta la adopción de la nueva.\n2.- A petición del Gobierno, la Cámara de los Diputados y el Senado son convocados diez días para reunirse en Sesión Extraordinaria para una nueva deliberación.\n3.- En caso de que los Presupuestos no hayan sido adoptados al final de la sesión extraordinaria, la Ley Presupuestaria queda definitivamente establecida por el Presidente de la República.\n"
+      },
+      "art-071": {
+       "label": "Artículo 71",
+       "kind": "art",
+       "text": "# Artículo 71\nSi los Presupuestos no fuesen presentados por el Gobierno en el curso de la segunda Sesión Ordinaria de la Cámara de los Diputados y del Senado, el Presidente de la República convocará una Sesión Extraordinaria de éstas para tal fin.\n"
+      },
+      "art-072": {
+       "label": "Artículo 72",
+       "kind": "art",
+       "text": "# Artículo 72\nAntes de promulgarse la Ley, el Presidente de la República puede pedir una segunda o tercera lectura de la misma a la Cámara de los Diputados y al Senado.\n"
+      },
+      "art-073": {
+       "label": "Artículo 73",
+       "kind": "art",
+       "text": "# Artículo 73\nEl Presidente de la República puede dirigirse de oficio a la Cámara de los Diputados y al Senado o enviar mensajes leídos. Estas comunicaciones no pueden dar lugar a ningún debate en presencia suya, excepto que la Sesión esté dedicada especialmente a tal efecto.\n"
+      },
+      "art-074": {
+       "label": "Artículo 74",
+       "kind": "art",
+       "text": "# Artículo 74\nEl Orden del Día de las Sesiones de la Cámara de los Diputados y del Senado es fijado por las Mesas respectivas.\n"
+      },
+      "art-075": {
+       "label": "Artículo 75",
+       "kind": "art",
+       "text": "# Artículo 75\nEl Presidente de la República promulga y sanciona las Leyes adoptadas por la Cámara de los Diputados y por el Senado.\n"
+      },
+      "art-076": {
+       "label": "Artículo 76",
+       "kind": "art",
+       "text": "# Artículo 76\nLa Cámara de los Diputados y el Senado aprueban sus presupuestos de gastos y los comunica al Gobierno para su acomodación e inclusión en los Presupuestos Generales del Estado.\n"
+      },
+      "art-077": {
+       "label": "Artículo 77",
+       "kind": "art",
+       "text": "# Artículo 77\nLas Cámaras se comunican por escrito entre sí y con los demás Poderes del Estado por medio de sus respectivos Presidentes.\n"
+      },
+      "art-078": {
+       "label": "Artículo 78",
+       "kind": "art",
+       "text": "# Artículo 78\nLa Ley establece el régimen de incompatibilidad de los Diputados y Senadores en ejercicio de sus funciones.\n"
+      },
+      "art-079": {
+       "label": "Artículo 79",
+       "kind": "art",
+       "text": "# Artículo 79\nLas funciones comunes de la Cámara de los Diputados y del Senado son las siguientes:\na) Elegir de entre sus Miembros a sus Presidentes, Vice-Presidentes y demás Miembros de la Mesa de sus respectivas Cámaras.\nb) Dictar su propio Reglamento Interno.\nc) Aprobar la Ley de Presupuestos de Ingresos, Gastos e Inversiones del Estado.\nd) Legislar en materia tributaria, suprimir y crear impuestos y demás gravámenes según los casos.\ne) Legislar sobre pesas y medidas.\nf) Determinar las bases del Derecho Civil, Mercantil, Procesal, Penal y Laboral.\ng) Regular los derechos fundamentales y todos los que se refieren a materia de reserva legal.\nh) Cuantas otras atribuciones les confieran las Leyes.\n"
+      },
+      "art-080": {
+       "label": "Artículo 80",
+       "kind": "art",
+       "text": "# Artículo 80\nLa Cámara de los Diputados, es el Órgano Legislativo del Estado y de representación popular de la Nación. Está integrada por 100 Miembros que son elegidos por un mandato de cinco años mediante sufragio universal, directo y secreto, en Elecciones Generales que se celebran en un solo día, y dentro de los sesenta días antes o después de la expiración de su mandato.\n"
+      },
+      "art-081": {
+       "label": "Artículo 81",
+       "kind": "art",
+       "text": "# Artículo 81\nCompete a la Cámara de los Diputados:\na) Aprobar los Tratados de Paz, de Comercio, los que afectan a la soberanía Nacional e integridad territorial y todos los que se refieren a materia de reserva legal y someterlos a la ratificación del Presidente de la República.\nb) Autorizar al Presidente de la República, durante el intermedio de las Sesiones, dictar Decretos-Leyes sobre materias de reserva legal. Estos Decretos-Leyes entrarán en vigor una vez publicados y no podrán ser derogados más que por otra Ley. El Gobierno informará a la Cámara de los Diputados y al Senado de estos Decretos-Leyes.\nc) Interpelar a los Miembros del Gobierno sobre asuntos de su competencia y hacerlos comparecer ante la Cámara para que rindan explicaciones sobre su política general o sobre un asunto específico puesto bajo su responsabilidad.\nd) Nombrar en su seno comisiones a fin de investigar cualquier asunto en el que se halle comprometido el interés público. Estas comisiones tienen libre acceso a todos los Departamentos de la Administración, quedando a salvo los secretos del Estado.\n"
+      },
+      "art-082": {
+       "label": "Artículo 82",
+       "kind": "art",
+       "text": "# Artículo 82\nLa Ley determina las condiciones de elección de los Diputados.\n"
+      },
+      "art-083": {
+       "label": "Artículo 83",
+       "kind": "art",
+       "text": "# Artículo 83\nEl Senado es el Órgano de representación territorial y de las corporaciones locales, en la forma que determina la Ley.\n"
+      },
+      "art-084": {
+       "label": "Artículo 84",
+       "kind": "art",
+       "text": "# Artículo 84\n1. El Senado está integrado por setenta Senadores, que son elegidos por un mandato de cinco años, mediante sufragio universal directo y secreto, en Elecciones Generales que se celebran en un solo día, y dentro de los sesenta días antes o después de la expiración de su mandato.\n2.- La Ley determina el número de Senadores de libre designación por el Presidente de la República de entre los setenta senadores.\n3.- La Ley Electoral define las circunscripciones electorales y determina el número de escaños correspondientes a cada una, el régimen de elegibilidad e inelegibilidad e incompatibilidad de los Senadores y desarrolla los demás aspectos del proceso electoral.\n4.- Los escaños se atribuyen a cada representación territorial y a las corporaciones locales.\n"
+      },
+      "art-085": {
+       "label": "Artículo 85",
+       "kind": "art",
+       "text": "# Artículo 85\nLos Ex Presidentes de la República, los Ex Vicepresidentes de la República, los Ex Presidentes de la Cámara de los Diputados y del Senado, son Senadores Natos con todos los derechos, prerrogativas e inmunidades, cuando conservan su dignidad y reputación política y social.\n"
+      },
+      "art-086": {
+       "label": "Artículo 86",
+       "kind": "art",
+       "text": "# Artículo 86\nSolo los asuntos comprendidos en sus competencias específicas podrán ser inscritos en el Orden del Día de las Sesiones del Senado y los que expresamente el Presidente de la República y la Cámara de los Diputados soliciten su intervención.\n"
+      },
+      "art-087": {
+       "label": "Artículo 87",
+       "kind": "art",
+       "text": "# Artículo 87\n1. En caso de vacancia simultánea en la Presidencia y la Vice-Presidencia de la República, el Presidente del Senado asumirá interinamente el cargo de Presidente de la República y convocará nuevas Elecciones Presidenciales en el plazo de noventa días.\n2.- A las elecciones convocadas con arreglo al párrafo anterior, el Presidente Interino de la República no podrá presentarse como candidato.\n3.- Durante el periodo de transición hasta la elección del nuevo Presidente de la República, la Ley Fundamental no podrá ser modificada y ningún Órgano del Estado podrá ser disuelto.\n"
+      },
+      "art-088": {
+       "label": "Artículo 88",
+       "kind": "art",
+       "text": "# Artículo 88\nSon funciones del Senado:\na) Dictaminar en segunda lectura los Proyectos de Leyes y demás Disposiciones sometidas a su estudio y aprobación por la Cámara de los Diputados.\nb) Aceptar o no la dimisión del Presidente de la República.\nc) Las demás que la Ley determine.\n"
+      },
+      "art-089": {
+       "label": "Artículo 89",
+       "kind": "art",
+       "text": "# Artículo 89\nEl Poder Judicial es independiente del Poder Legislativo y del Poder Ejecutivo. Ejerce las funciones jurisdiccionales del Estado.\n"
+      },
+      "art-090": {
+       "label": "Artículo 90",
+       "kind": "art",
+       "text": "# Artículo 90\n1. La justicia emana del Pueblo y se administra en nombre del Jefe de Estado.\n2.- La Ley Orgánica del Poder Judicial determina la organización y las atribuciones de los Juzgados y Tribunales necesarios para un funcionamiento eficaz de la Administración de Justicia. Esta misma Ley fija el Estatuto de la Magistratura.\n"
+      },
+      "art-091": {
+       "label": "Artículo 91",
+       "kind": "art",
+       "text": "# Artículo 91\nEl ejercicio de la potestad jurisdiccional en todo tipo de proceso, juzgando y haciendo ejecutar lo juzgado, corresponde exclusivamente a los Juzgados y Tribunales determinados por la Ley.\n"
+      },
+      "art-092": {
+       "label": "Artículo 92",
+       "kind": "art",
+       "text": "# Artículo 92\nEl Jefe de Estado es el Primer Magistrado de la Nación y garantiza la independencia de la función jurisdiccional.\n"
+      },
+      "art-093": {
+       "label": "Artículo 93",
+       "kind": "art",
+       "text": "# Artículo 93\nLos Jueces y Magistrados no son sometidos más que a las disposiciones de la Ley en el ejercicio de sus funciones.\n"
+      },
+      "art-094": {
+       "label": "Artículo 94",
+       "kind": "art",
+       "text": "# Artículo 94\nEl principio de unidad jurisdiccional es la base de la organización y del funcionamiento de los Juzgados y Tribunales. La Ley fija el régimen jurídico aplicable a la Jurisdicción Militar.\n"
+      },
+      "art-095": {
+       "label": "Artículo 95",
+       "kind": "art",
+       "text": "# Artículo 95\nLos juicios son públicos, salvo los casos que la Ley señale, pero los Tribunales de Justicia deliberan en secreto.\n"
+      },
+      "art-096": {
+       "label": "Artículo 96",
+       "kind": "art",
+       "text": "# Artículo 96\n1. El Consejo Superior del Poder Judicial es el Órgano de Gobierno del mismo. Se compone de un Presidente que es el Presidente de la República y seis Miembros nombrados por el Jefe de Estado de entre personalidades de reconocida competencia y solvencia moral, por un periodo de cinco años.\n2.- Una Ley regulará la estructura del Consejo Superior del Poder Judicial, su funcionamiento y el Estatuto Jurídico de sus Miembros.\n"
+      },
+      "art-097": {
+       "label": "Artículo 97",
+       "kind": "art",
+       "text": "# Artículo 97\nLa Corte Suprema de Justicia es el máximo Órgano Jurisdiccional en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales, se compone de un Presidente y ocho Magistrados.\n"
+      },
+      "art-098": {
+       "label": "Artículo 98",
+       "kind": "art",
+       "text": "# Artículo 98\n1. El Presidente de la Corte Suprema de Justicia y los Magistrados que la componen, son nombrados por el Presidente de la República para un periodo de cinco años.\n2.- Los Magistrados de Carrera y los funcionarios de la Administración de Justicia son nombrados y separados conforme a la Ley.\n"
+      },
+      "art-099": {
+       "label": "Artículo 99",
+       "kind": "art",
+       "text": "# Artículo 99\nLa Fiscalía General de la República tiene como misión principal velar por el estricto cumplimiento de la legalidad y demás disposiciones por todos los órganos del Estado, las Regiones, las Provincias, los Distritos y los Municipios, así como los ciudadanos y extranjeros residentes en el País.\n"
+      },
+      "art-100": {
+       "label": "Artículo 100",
+       "kind": "art",
+       "text": "# Artículo 100\n1. El Fiscal General de la República y los Fiscales Generales Adjuntos son nombrados y separados por el Presidente de la República.\n2.- La Fiscalía General de la República se rige por un Estatuto Orgánico.\n"
+      },
+      "art-101": {
+       "label": "Artículo 101",
+       "kind": "art",
+       "text": "# Artículo 101\n1. El Tribunal Constitucional se compone de un Presidente y cuatro Miembros nombrados por el Presidente de la República; dos de ellos a propuesta de la Cámara de los Diputados y del Senado, respectivamente. El periodo de mandato de los Miembros del Tribunal Constitucional será de siete años.\n2.- Compete al Tribunal Constitucional:\na) Conocer de los recursos de inconstitucionalidad de las Leyes.\nb) Conocer de los recursos de amparo constitucional contra las disposiciones y actos que violen los derechos y libertades reconocidos en la Ley Fundamental.\nc) Proclamar los resultados definitivos de las Elecciones Presidenciales, Legislativas, Municipales y las Operaciones de Referéndum.\nd) Declarar la incapacidad física o mental que constituye impedimento legal para el desempeño de las funciones del Presidente de la República, del Vice-Presidente de la República, del Presidente de la Cámara de los Diputados y del Senado.\ne) Dictaminar con carácter vinculante, sobre la legalidad constitucional del desarrollo reglamentario de las Leyes Institucionales.\nf) Conocer de los conflictos entre los órganos constitucionales.\ng) Conocer sobre la declaración de inconstitucionalidad de los Tratados Internacionales.\nh) Las demás materias que le atribuyen las Leyes.\n"
+      },
+      "art-102": {
+       "label": "Artículo 102",
+       "kind": "art",
+       "text": "# Artículo 102\n1. Los Órganos legítimos para interponer recursos de inconstitucionalidad son:\na) El Presidente de la República-Jefe de Estado.\nb) El Vice-Presidente de la República y el Primer Ministro.\nc) La Cámara de los Diputados y el Senado en una mayoría cualificada de las tres cuartas partes de sus Miembros.\nd) El Fiscal General de la República.\n2.- Puede interponer recurso de amparo, toda persona natural o causahabiente que invoque un interés legítimo.\n"
+      },
+      "art-103": {
+       "label": "Artículo 103",
+       "kind": "art",
+       "text": "# Artículo 103\nLos Miembros del Tribunal Constitucional no podrán ser Miembros del Gobierno, de la Cámara de los Diputados, del Senado, de la Carrera Judicial ni Fiscal, tampoco ostentarán ningún cargo público electivo.\n"
+      },
+      "art-104": {
+       "label": "Artículo 104",
+       "kind": "art",
+       "text": "# Artículo 104\nUna Ley Orgánica regulará el funcionamiento del Tribunal Constitucional, el Estatuto de sus Miembros y el procedimiento para el ejercicio de las acciones ante el mismo.\n"
+      },
+      "art-105": {
+       "label": "Artículo 105",
+       "kind": "art",
+       "text": "# Artículo 105\nEl Consejo de la República es un Órgano consultivo de carácter político del Estado, encargado de asesorar al Presidente de la República en su gestión durante su mandato y a los demás Poderes del Estado.\n"
+      },
+      "art-106": {
+       "label": "Artículo 106",
+       "kind": "art",
+       "text": "# Artículo 106\nLos temas objeto de asesoramiento del Consejo de la República son:\na) La defensa y salvaguarda de la Ley Fundamental de Guinea Ecuatorial y los valores supremos del Estado.\nb) El mantenimiento de la seguridad interior y exterior del Estado.\nc) La defensa y el mantenimiento de la unidad nacional, la integridad territorial y la soberanía del Estado de la República de Guinea Ecuatorial.\nd) La defensa de los valores de las culturas autóctonas, la identidad bantú y africana, así como la civilización universal.\ne) La defensa y el mantenimiento del Estado de Derecho y el sistema democrático de la República de Guinea Ecuatorial.\nf) Cuantas otras cuestiones les sean sometidas.\n"
+      },
+      "art-107": {
+       "label": "Artículo 107",
+       "kind": "art",
+       "text": "# Artículo 107\nEl Consejo de la República se compone de nueve Miembros elegidos de entre los Ex Presidentes de la República, los Ex Presidentes de la Cámara de los Diputados, los Ex Presidentes del Senado, los Ex Presidentes de la Corte Suprema de Justicia y los Ex Presidentes del Tribunal Constitucional, que hayan ejercido sus cargos con reconocida honradez y dignidad, así como otras personalidades que por su probada honradez y dignidad merezcan tal designación.\n"
+      },
+      "art-108": {
+       "label": "Artículo 108",
+       "kind": "art",
+       "text": "# Artículo 108\n1. Los Miembros del Consejo de la República serán nombrados por el Presidente de la República y tendrán una duración de cinco años, pudiendo ser renovados.\n2.- Los Ex Presidentes de la República serán Miembros vitalicios de pleno derecho del Consejo de la República.\n"
+      },
+      "art-109": {
+       "label": "Artículo 109",
+       "kind": "art",
+       "text": "# Artículo 109\nLa condición de Miembro del Consejo de la República es incompatible con los cargos de Miembros de otros Órganos previstos en esta Ley Fundamental, excepto los Ex Presidentes de la República.\n"
+      },
+      "art-110": {
+       "label": "Artículo 110",
+       "kind": "art",
+       "text": "# Artículo 110\nLos Miembros del Consejo de la República cesarán de sus funciones en los siguientes casos:\na) Por expiración del mandato\nb) Por muerte\nc) Por incapacidad mental permanente.\n"
+      },
+      "art-111": {
+       "label": "Artículo 111",
+       "kind": "art",
+       "text": "# Artículo 111\nEl Consejo de la República estará estructurado por:\na) Un Presidente, que será preferentemente uno de los Ex Presidentes de la República.\nb) Un Vice-Presidente\nc) Un Secretario\nd) Vocales\n"
+      },
+      "art-112": {
+       "label": "Artículo 112",
+       "kind": "art",
+       "text": "# Artículo 112\nUna Ley desarrollará las funciones y competencias del Consejo de la República, así como las inmunidades de sus Miembros.\n"
+      },
+      "art-113": {
+       "label": "Artículo 113",
+       "kind": "art",
+       "text": "# Artículo 113\n1. El Consejo Nacional para el Desarrollo Económico y Social, es el Órgano Técnico Consultivo sobre los planes y programas económicos y sociales, así como toda disposición legislativa o reglamentaria con carácter fiscal; puede asimismo proceder en base a una economía de mercado, al análisis de los problemas de desarrollo de Guinea Ecuatorial.\n2.- El Consejo Nacional para el Desarrollo Económico y Social emite su criterio y somete sus conclusiones sobre todas las cuestiones relacionadas a las materias que han sido puestas a su estudio por el Presidente de la República, la Cámara de los Diputados, el Senado y otros Órganos de la Administración del Estado.\n3.- Sigue la ejecución de las decisiones del Gobierno relativas a la organización económica y social.\n"
+      },
+      "art-114": {
+       "label": "Artículo 114",
+       "kind": "art",
+       "text": "# Artículo 114\n1. El Consejo Nacional para el Desarrollo Económico y Social está compuesto por técnicos, especialistas y responsables en cuestiones de desarrollo económico y social. Se compone de treinta Miembros, que son designados por el Presidente de la República para un periodo de cinco años.\n2.- La organización interna y las normas para el funcionamiento del Consejo Nacional para el Desarrollo Económico y Social son fijados por la Ley.\n"
+      },
+      "art-115": {
+       "label": "Artículo 115",
+       "kind": "art",
+       "text": "# Artículo 115\n1. El control fiscal es una función pública que ejercerá el Tribunal de Cuentas de la República, el cual vela por la transparencia de la gestión fiscal de la Administración y de los particulares o entidades que manejen fondos o bienes de la Nación. Dicho control se ejercerá con posterioridad selectiva conforme a los procedimientos, sistemas y principios que establezca la Ley.\n2.- El Tribunal de Cuentas es una entidad de carácter técnico con autonomía administrativa y presupuestaria. No tendrá funciones administrativas distintas a las inherentes a su propia organización.\n"
+      },
+      "art-116": {
+       "label": "Artículo 116",
+       "kind": "art",
+       "text": "# Artículo 116\nTodas las personalidades del Estado, los asalariados públicos y para-públicos deben prestar una declaración de sus bienes patrimoniales antes de ejercer las funciones que les sean designadas.\n"
+      },
+      "art-117": {
+       "label": "Artículo 117",
+       "kind": "art",
+       "text": "# Artículo 117\n1. El Presidente y los Miembros del Tribunal de Cuentas serán nombrados por el Presidente de la República.\n2.- La Ley fija el número, duración del mandato y las condiciones de designación del Presidente y los Miembros del Tribunal de Cuentas.\n"
+      },
+      "art-118": {
+       "label": "Artículo 118",
+       "kind": "art",
+       "text": "# Artículo 118\nEl Tribunal de Cuentas tendrá las siguientes atribuciones:\na) Prescribir los métodos y la forma de rendir cuentas a los responsables del manejo de fondos o bienes de la Nación y establecer los criterios de evaluación financiera, operativa y de resultados que deberán ser objeto de seguimiento permanente.\nb) Revisar y controlar las cuentas que deben llevar los responsables del erario público y determinar el grado de eficacia y eficiente que hayan obrado.\nc) Llevar un registro de la deuda pública de la Nación y de las entidades locales.\nd) Exigir informes sobre la gestión fiscal a los empleados públicos de cualquier orden y a toda persona o entidad pública o privada que administre fondos o bienes de la Nación.\ne) Establecer la responsabilidad que se derive de la gestión fiscal, proponer las sanciones pecuniarias que correspondan y ejercer la jurisdicción coactiva sobre los alcances deducidos de la mima.\nf) Conceptuar sobre la calidad y eficacia del control fiscal interno de las entidades y organismos del Estado.\ng) Presentar al Presidente de la República y al Parlamento un informe anual sobre el cumplimiento de sus funciones y certificar sobre la situación de las Finanzas y Cuentas del Estado.\nh) Promover ante las autoridades competentes, aportando las pruebas respectivas, investigaciones penales o disciplinarias contra quienes hayan causado perjuicio a los intereses patrimoniales del Estado. Bajo su responsabilidad, el Tribunal de Cuentas podrá exigir, verdad sabida y buena fe guardada, la suspensión temporal de funcionarios mientras culminan las investigaciones o los respectivos procesos penales o disciplinarios.\ni) Presentar Anteproyectos de Leyes relativos al régimen de control fiscal, la organización y funcionamiento del Tribunal de Cuentas.\nj) Las demás funciones que le atribuye la Ley.\n"
+      },
+      "art-119": {
+       "label": "Artículo 119",
+       "kind": "art",
+       "text": "# Artículo 119\nLos resultados de las investigaciones preliminares adelantadas por el Tribunal de Cuentas tendrán valor probatorio ante la Fiscalía General de la República y ante el Juez competente.\n"
+      },
+      "art-120": {
+       "label": "Artículo 120",
+       "kind": "art",
+       "text": "# Artículo 120\nLa Ley desarrollará la estructura y funcionamiento del Tribunal de Cuentas.\n"
+      },
+      "art-121": {
+       "label": "Artículo 121",
+       "kind": "art",
+       "text": "# Artículo 121\nLa Ley determinará la manera de ejercer el control y vigilancia de la gestión del Tribunal de Cuentas.\n"
+      },
+      "art-122": {
+       "label": "Artículo 122",
+       "kind": "art",
+       "text": "# Artículo 122\nEl Defensor del Pueblo es el alto comisionado de la Cámara de los Diputados y del Senado, designado por éstas para la defensa de los derechos de los ciudadanos comprendidos en esta Ley Fundamental, a cuyo efecto, podrá supervisar la actividad de la Administración, dando cuenta a la Cámara de los Diputados y al Senado.\n"
+      },
+      "art-123": {
+       "label": "Artículo 123",
+       "kind": "art",
+       "text": "# Artículo 123\nEl Defensor del Pueblo será elegido por la Cámara de los Diputados y el Senado, ratificado por el Presidente de la República, para un periodo de cinco años.\n"
+      },
+      "art-124": {
+       "label": "Artículo 124",
+       "kind": "art",
+       "text": "# Artículo 124\nSe designará en el Parlamento una Comisión Mixta Cámara de los Diputados-Senado, encargada de relaciones con el Defensor del Pueblo e informar a los respectivos plenos en cuantas ocasiones sean necesarias.\n"
+      },
+      "art-125": {
+       "label": "Artículo 125",
+       "kind": "art",
+       "text": "# Artículo 125\nToda persona física o jurídica que, ante un asunto que le concierne, considere que un organismo público no ha funcionado o actuado conforme a la misión de servicio público que le es asignado, puede interponer recurso de amparo ante el Defensor del Pueblo.\n"
+      },
+      "art-126": {
+       "label": "Artículo 126",
+       "kind": "art",
+       "text": "# Artículo 126\nSon funciones del Defensor del Pueblo:\na) Verificar y mediar cualquier conducta irregular en las relaciones entre la Administración Pública o Privada y los ciudadanos.\nb) Informar y denunciar ante los órganos competentes sobre conductas no conformes con las Leyes.\nc) Mediar en los conflictos que puedan surgir entre la Administración y los administrados, proponiendo las soluciones correspondientes a los órganos competentes, según los casos.\nd) Conocer de los recursos de amparo y protección contra las disposiciones y actos que violen los derechos y libertades reconocidos en esta Ley Fundamental.\n"
+      },
+      "art-127": {
+       "label": "Artículo 127",
+       "kind": "art",
+       "text": "# Artículo 127\n1. El Defensor del Pueblo es accesible a todas las personas.\n2.- Un informe emitido por el Defensor del Pueblo debe ser accesible al público salvo circunstancias excepcionales a determinar por la Ley para requerir el carácter confidencial del mismo.\n"
+      },
+      "art-128": {
+       "label": "Artículo 128",
+       "kind": "art",
+       "text": "# Artículo 128\nLa Ley fija la estructura orgánica y funcional del Defensor del Pueblo.\n"
+      },
+      "art-129": {
+       "label": "Artículo 129",
+       "kind": "art",
+       "text": "# Artículo 129\nLas Fuerzas Armadas y de la Seguridad del Estado constituye la institución nacional que tiene como misión principal, mantener la Independencia Nacional y la Integridad Territorial, defender la Soberanía Nacional, salvaguardar los supremos valores de la Patria, la Seguridad del Estado, el Orden Público y el normal funcionamiento de los Poderes Públicos. Las Fuerzas Armadas y de la Seguridad del Estado se rigen por la Ley y por sus propios Reglamentos.\n"
+      },
+      "art-130": {
+       "label": "Artículo 130",
+       "kind": "art",
+       "text": "# Artículo 130\n1. La Defensa Nacional es la organización y la participación de todas las fuerzas vivas y los recursos morales y materiales de la Nación cuando las circunstancias lo exigen.\n2.- Un Reglamento Orgánico regula la Defensa Nacional.\n"
+      },
+      "art-131": {
+       "label": "Artículo 131",
+       "kind": "art",
+       "text": "# Artículo 131\nLas Corporaciones Locales son instituciones con personalidad jurídica propia, encargadas del gobierno y administración de las Regiones, Provincias, Distritos y Municipios. Promueven los planes y programas de desarrollo económico y social de sus respectivos territorios de acuerdo a la Ley.\n"
+      },
+      "art-132": {
+       "label": "Artículo 132",
+       "kind": "art",
+       "text": "# Artículo 132\n1. Las Corporaciones Locales contribuyen a la realización de las funciones y fines del Estado que establece esta Ley Fundamental y no pueden ser creadas, modificadas ni suprimidas más que por Ley.\n2.- La Ley determina las competencias, el funcionamiento, la jurisdicción y la composición de las Corporaciones Locales.\n"
+      },
+      "art-133": {
+       "label": "Artículo 133",
+       "kind": "art",
+       "text": "# Artículo 133\n1. La iniciativa de la reforma de la presente Ley Fundamental corresponde al Presidente de la República o a las tres cuartas partes de los Miembros de la Cámara de los Diputados o del Senado.\n2.- Los proyectos de revisión constitucional a que se refiere el párrafo anterior se tramitarán conforme a lo establecido para proyectos o proposiciones de Leyes.\n3.- Las proposiciones de reforma de la Ley Fundamental se adoptarán por el voto afirmativo de las tres cuartas partes de los Miembros de la Cámara de los Diputados y del Senado.\n4.- La aprobación de la proposición de forme establece el párrafo anterior devendrá definitiva, salvo cuando el Presidente de la República decida someterla a Referéndum, en cuyo caso la correspondiente aprobación popular la hará definitiva.\n"
+      },
+      "art-134": {
+       "label": "Artículo 134",
+       "kind": "art",
+       "text": "# Artículo 134\nEl Régimen Republicano y Democrático del Estado de Guinea Ecuatorial, la Unidad Nacional y la Integridad Territorial no pueden ser objeto de ninguna reforma.\n"
+      },
+      "disposicion-derogatoria": {
+       "label": "Disposición derogatoria",
+       "kind": "repeal",
+       "text": "# Disposición derogatoria\nQuedan derogadas cuantas disposiciones se opongan a lo dispuesto en la presente Ley Fundamental.\n"
+      },
+      "disposicion-final": {
+       "label": "Disposición final",
+       "kind": "final",
+       "text": "# Disposición final\nLa presente Ley Fundamental entrará en vigor a partir de su promulgación por el Presidente de la República, después de haber sido aprobada en Referéndum y su publicación en el Boletín Oficial del Estado.\n"
+      },
+      "disposicion-transitoria-1": {
+       "label": "Disposición transitoria primera",
+       "kind": "transitional",
+       "text": "# Disposición transitoria primera\nEn tanto no sean puestas en funcionamiento las nuevas Instituciones y Órganos creados por esta Ley Fundamental, permanecerán vigentes las existentes actualmente.\n"
+      },
+      "disposicion-transitoria-2": {
+       "label": "Disposición transitoria segunda",
+       "kind": "transitional",
+       "text": "# Disposición transitoria segunda\nHasta tanto no se constituya la Cámara de los Diputados y el Senado, la actual Cámara de los Representantes del Pueblo seguirá ejerciendo las funciones que la Ley Fundamental reconoce al Poder Legislativo del Estado.\n"
+      },
+      "estructura": {
+       "label": "Estructura (títulos y capítulos)",
+       "kind": "structure",
+       "text": "# Estructura\nTÍTULO PRIMERO PRINCIPIOS FUNDAMENTALES DEL ESTADO | Artículo 1\nTÍTULO SEGUNDO DE LOS PODERES Y ÓRGANOS DEL ESTADO | Artículo 31\nCAPÍTULO II DEL PRESIDENTE DE LA REPÚBLICA | Artículo 33\nCAPÍTULO III DEL CONSEJO DE MINISTROS | Artículo 46\nCAPÍTULO IV DEL PARLAMENTO | DISPOSICIONES COMUNES DE LAS CÁMARAS | Artículo 54\nDE LA CÁMARA DE LOS DIPUTADOS | Artículo 80\nDEL SENADO | Artículo 83\nCAPÍTULO V DEL PODER JUDICIAL | DISPOSICIONES GENERALES | Artículo 89\nDEL CONSEJO SUPERIOR DEL PODER JUDICIAL | Artículo 96\nDE LA CORTE SUPREMA DE JUSTICIA | Artículo 97\nDE LA FISCALÍA GENERAL DE LA REPÚBLICA | Artículo 99\nCAPÍTULO VI DEL TRIBUNAL CONSTITUCIONAL | Artículo 101\nCAPÍTULO VII DEL CONSEJO DE LA REPÚBLICA | Artículo 105\nCAPÍTULO VIII DEL CONSEJO NACIONAL PARA EL DESARROLLO ECONÓMICO Y SOCIAL | Artículo 113\nCAPÍTULO IX DEL TRIBUNAL DE CUENTAS | Artículo 115\nCAPÍTULO X DEL DEFENSOR DEL PUEBLO | Artículo 122\nTÍTULO TERCERO DELAS FUERZAS ARMADAS, DE LA SEGURIDAD DEL ESTADO Y DE LA DEFENSA NACIONAL | Artículo 129\nTÍTULO CUARTO DE LAS CORPORACIONES LOCALES | Artículo 131\nTÍTULO QUINTO | DE LA REVISIÓN DE LA LEY FUNDAMENTAL | Artículo 133\n"
+      },
+      "formula-final": {
+       "label": "Fórmula de promulgación",
+       "kind": "final",
+       "text": "# Fórmula de promulgación\nPor todo cuanto antecede, habiendo cumplido con rigor las disposiciones legales que el Ordenamiento Jurídico vigente en el País otorga a las instituciones y órganos del Estado y, conforme prevé la Disposición Final de esta Ley Fundamental de Guinea Ecuatorial, sanciono y promulgo la presente Ley Fundamental, en la Ciudad de Bata, a dieciséis días del mes de febrero del año dos mil doce.\nPOR UNA GUINEA MEJOR\n-OBIANG NGUEMA MBASOGO-\nPRESIDENTE DE LA REPÚBLICA\n"
+      },
+      "introduccion": {
+       "label": "Introducción (fórmula de promulgación)",
+       "kind": "enacting",
+       "text": "# Introducción\nPor cuanto que el Artículo 2 de la Ley Fundamental hasta ahora vigente en Guinea Ecuatorial estipula que, la soberanía pertenece al Pueblo, el cual ejerce a través del sufragio universal. De ella emanan los poderes públicos que se ejercen en las condiciones que esta Ley Fundamental y otras Leyes determinan.\nHabiéndose cumplido todas las previsiones del Artículo 103 de la invocada Ley Fundamental relativo al Proyecto de Reforma de dicha Ley, tras su adopción por el Gobierno en Consejo de Ministros, el Pleno de la Cámara de los Representantes del Pueblo en Sesión Extraordinaria y por el Pueblo de Guinea Ecuatorial en Referéndum Popular del día 13 de noviembre de 2.011.\nConforme a los resultados de dicho Referéndum Popular manifestada por el Pueblo mediante el sufragio universal directo y secreto con un porcentaje de 97,7% de votos a favor del Sí, validados por el Tribunal Constitucional.\nPromulgo esta Ley Fundamental de Guinea Ecuatorial, cuyo texto íntegro se inserta a continuación:\n"
+      },
+      "preambulo": {
+       "label": "Preámbulo",
+       "kind": "preamble",
+       "text": "# Preámbulo\nNosotros, Pueblo de Guinea Ecuatorial, conscientes de nuestra responsabilidad ante Dios y la Historia.\nAnimados por la voluntad de salvaguardar nuestra Independencia Total, de organizar y consolidar nuestra unidad nacional.\nDeseosos de mantener el auténtico espíritu africano de la tradición positiva de la organización familiar y comunal adaptándolo a nuevas estructuras sociales y judiciales acordes a la vida moderna;\nConscientes de que el sentido de la autoridad carismática de la familia tradicional es la base de la organización de la sociedad ecuatoguineana;\nApoyados firmemente en los principios de la justicia social reafirmados solemnemente en los derechos y libertades del hombre definidos por la Declaración Universal de Derechos del Hombre del 10 de octubre de 1.948;\nLa Carta Africana de Derechos del Hombre y de los Pueblos de 26 de junio de 1.981;\nAdoptamos la siguiente Ley Fundamental de Guinea Ecuatorial.\n"
+      }
+     },
+     "credits": {},
+     "note": "Ley Núm. 1/2012 as promulgated in Bata on 16 February 2012, after the referendum of 13 November 2011. The reform of arts. 56.1, 80 and 84.1 and 2 by Ley 1/2025, de 16 de julio, is not applied: the BOE publishes it only as a scan (see the README)."
+    }
+   ]
+  }
+ ],
+ "applies": [],
+ "decisions": [
+  "One act, one version: the Ley Fundamental as promulgated by Ley 1/2012 (16 February 2012), credited to Ley 1/2012 as enacted. It replaced the Ley Fundamental of 1991 (reformed in 1995), whose texts were not found online with a text layer (BOE search, Internet Archive CDX of boe.gob.gq); the Common Crawl index did not answer from this machine. So the history before 2012 is missing.",
+  "The version is dated 2012-02-16, the promulgation date (Disposición final: in force on promulgation and BOE publication). The BOE lists the law under that date and gives no separate publication date.",
+  "Not today's text: Ley 1/2025, de 16 de julio, reforms arts. 56.1, 80 and 84.1 and 2. The BOE publishes it only as images (FPDF wrapper, no text layer), and scans are not transcribed (no OCR), so the reform is not applied and its in-force date is not known. The build stays on preview.",
+  "The e-signature line printed on every page (\"Documento firmado electrónicamente con código de verificación …\"), the title page and the repeated title before the preamble are left out. The introduction (the promulgation formula before the text) and the closing promulgation formula are kept as their own units.",
+  "Paragraphs are rebuilt from the layout: a sentence end followed by a blank line or a short line ends a paragraph; a line without a sentence end runs on, also across a page break; numbered paragraphs (\"2.-\"), list items (\"a)\") and articles start new lines.",
+  "Unit layout: one file per article (art-NNN), the preamble, the introduction, each transitional provision, the repealing and final provisions, the closing formula, and one structure file (estructura) naming the article each heading precedes.",
+  "Typesetting is normalised once: NBSP to space, curly apostrophes to straight ones, curly double quotes to « », runs of spaces collapsed. Spelling is kept as printed (for example \"DELAS FUERZAS ARMADAS\")."
+ ],
+ "ai_use": [
+  "Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote fetch.py and parse.py, chose the sources and wrote the decisions. No model wrote, summarised or transformed legal text: parse.py is deterministic code over the cached PDF."
+ ]
+}
