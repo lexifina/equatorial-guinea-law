@@ -1,0 +1,11 @@
+{
+ "parts": {
+  "30-ley-general-de-trabajo.json": {
+   "acts": [
+    "ley-general-de-trabajo"
+   ],
+   "sha256": "a60fbac01ae3bdff0c668cb92b8e1dccec4d817de68a32da5f297ef1e66eda12"
+  }
+ },
+ "schema": 1
+}
