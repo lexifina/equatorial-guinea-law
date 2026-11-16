@@ -60,6 +60,7 @@ Cada versión se atribuye a la ley que la hizo (`Ley 1/2012`, `Ley Núm. 4/2021`
 - La Ley Fundamental se lee de la propia capa de texto del PDF (no de un escaneo), y cada palabra se comparó con una segunda extracción: solo difieren en los encabezados y la portada, que no están en los archivos de los artículos.
 - Cada párrafo y cada encabezado de artículo de la Ley General de Trabajo se encontró, en orden, en una segunda extracción independiente de su PDF; están todos los arts. 1 a 120.
 - La historia solo admite adiciones (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada fechado en el futuro, y los trailers de todos los commits se analizan sin errores.
+- [vulnerabilities/](vulnerabilities/): posibles errores de redacción en este derecho, hallados por los detectores de global-law y revisados a mano. Aún no se ha ejecutado.
 
 ## Qué no muestra
 
@@ -83,6 +84,10 @@ Véase [`LICENSE`](LICENSE). Los textos son textos jurídicos oficiales de la Re
 Ningún modelo de IA escribió, tradujo ni corrigió texto normativo, y ninguno se ejecuta durante la compilación; los scripts los escribió Claude Code con Claude Opus 5.5 (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
+
+## Visualizaciones
+
+- [visualisations/](visualisations/): gráficos hechos a partir de este repositorio. Aún no se han hecho.
 
 ## Más información
 
