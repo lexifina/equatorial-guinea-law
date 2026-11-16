@@ -60,6 +60,7 @@ Each version is credited to the law that made it (`Ley 1/2012`, `Ley Núm. 4/202
 - The Ley Fundamental is read from the PDF's own text layer (not a scan), and every word was compared with a second extraction: they differ only in the headings and title page, which are not in the article files.
 - Every paragraph and article heading of the Ley General de Trabajo was found, in order, in a second, independent extraction of its PDF; arts. 1 to 120 are all present.
 - History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -81,6 +82,10 @@ Each version is credited to the law that made it (`Ley 1/2012`, `Ley Núm. 4/202
 See [`LICENSE`](LICENSE). The texts are official legal texts of the Republic of Equatorial Guinea, as published by the Boletín Oficial del Estado, reproduced with that attribution; the BOE states no licence for its files, and their copyright status is not confirmed. Lexifina's own contributions (the arrangement, commit messages, tables and tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs at build time; the scripts were written by Claude Code running Claude Opus 5.5 (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
