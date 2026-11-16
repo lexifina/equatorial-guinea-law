@@ -1,35 +1,41 @@
-# Equatorial Guinea: law history in git
+# Guinea Ecuatorial: historia del derecho en git
 
+**Español** · [English](README.en.md)
 
-The national law of Equatorial Guinea as a git history: one file per article, one commit per version on the day it took effect, and the law that made each version as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to an article; picking a date gives the text in force that day, as far as the record reaches.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/es/effort-dark.svg">
+<img alt="El derecho ecuatoguineano en este repositorio: qué contiene, los cambios por año de entrada en vigor, la completitud frente a las fuentes oficiales y la exactitud de lo que contiene" src="data/es/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Equatorial Guinea's national law, which global-law reads at `equatorial-guinea/national/acts/`.
+El derecho nacional de Guinea Ecuatorial como historia de git: un archivo por artículo, un commit por versión el día de su entrada en vigor, y la ley que hizo cada versión como autora del commit. `git blame` indica la ley que está detrás de cada párrafo; `git log` enumera todos los cambios de un artículo; al elegir una fecha se obtiene el texto vigente ese día, hasta donde alcanza el registro.
 
-**What is in it now:** two acts, one version each, as enacted: the Ley Fundamental de Guinea Ecuatorial (the Constitution) of 2012, and the Ley General de Trabajo (Ley Núm. 4/2021), in force since 2 March 2022. Neither is today's text: later reforms of both are published only as scans and are not applied (see below). [`data/versions.json`](data/versions.json) lists each act with its versions; [`data/laws.csv`](data/laws.csv) lists the laws the record names.
+Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), una única historia de git para el derecho de todos los países: este es el derecho nacional de Guinea Ecuatorial, que global-law lee en `equatorial-guinea/national/acts/`.
 
-Each act is a folder (`ley-fundamental/`, `ley-general-de-trabajo/`) with one file per article, preamble and provision: `ley-general-de-trabajo/art-083.md` is art. 83 (Vacaciones) of the Ley General de Trabajo. The Ley Fundamental's titles and chapters are in `ley-fundamental/estructura.md`; each folder's `README.md` lists its provisions.
+**Qué contiene ahora:** dos normas, con una versión cada una, en su texto promulgado: la Ley Fundamental de Guinea Ecuatorial (la Constitución) de 2012 y la Ley General de Trabajo (Ley Núm. 4/2021), en vigor desde el 2 de marzo de 2022. Ninguna es el texto vigente hoy: las reformas posteriores de ambas solo se publican escaneadas y no se aplican (véase más abajo). [`data/versions.json`](data/versions.json) enumera cada norma con sus versiones; [`data/laws.csv`](data/laws.csv) enumera las leyes que el registro menciona.
 
-The text is in Spanish, as the Boletín Oficial del Estado prints it. An English translation is not part of this record.
+Cada norma es una carpeta (`ley-fundamental/`, `ley-general-de-trabajo/`) con un archivo por artículo, preámbulo y disposición: `ley-general-de-trabajo/art-083.md` es el art. 83 (Vacaciones) de la Ley General de Trabajo. Los títulos y capítulos de la Ley Fundamental están en `ley-fundamental/estructura.md`; el `README.md` de cada carpeta enumera sus disposiciones.
 
-## Questions as git commands
+El texto está en español, tal como lo publica el Boletín Oficial del Estado. Este registro no incluye una traducción al inglés.
 
-| Question | Command |
+## Preguntas como comandos de git
+
+| Pregunta | Comando |
 | --- | --- |
-| Every change to art. 83 of the Ley General de Trabajo | `git log -p --word-diff -- ley-general-de-trabajo/art-083.md` |
-| Which law wrote each line of art. 83? | `git blame ley-general-de-trabajo/art-083.md` |
-| Every version of the Ley General de Trabajo, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" --grep="^In-force:" -- ley-general-de-trabajo` |
-| Art. 83 as in force on 1 January 2025 | `python tools/en_vigor_el.py 2025-01-01 ley-general-de-trabajo 83` |
+| Todos los cambios del art. 83 de la Ley General de Trabajo | `git log -p --word-diff -- ley-general-de-trabajo/art-083.md` |
+| ¿Qué ley escribió cada línea del art. 83? | `git blame ley-general-de-trabajo/art-083.md` |
+| Todas las versiones de la Ley General de Trabajo, con el día en que entró en vigor cada una | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" --grep="^In-force:" -- ley-general-de-trabajo` |
+| El art. 83 vigente al 1 de enero de 2025 | `python tools/en_vigor_el.py 2025-01-01 ley-general-de-trabajo 83` |
 
-**Outside git**, we also host this record publicly, for free:
+**Fuera de git**, también alojamos este registro de forma pública y gratuita:
 
-- **[Ask Claude about the law of Equatorial Guinea](https://global-law.lexifina.com/v1/try_claude?country=equatorial-guinea)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=equatorial-guinea)**: the same question in ChatGPT.
-- **[Search the law of Equatorial Guinea on our site](https://lexifina.com/law?country=equatorial-guinea&q=vacaciones)**: a search for "vacaciones", with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=equatorial-guinea)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Preguntar a Claude sobre el derecho ecuatoguineano](https://global-law.lexifina.com/v1/try_claude?country=equatorial-guinea)**: abre Claude con una primera pregunta preparada.
+- **[Preguntar a ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=equatorial-guinea)**: la misma pregunta en ChatGPT.
+- **[Buscar en el derecho de Guinea Ecuatorial en nuestro sitio](https://lexifina.com/law?country=equatorial-guinea&q=vacaciones)**: una búsqueda de "vacaciones", con el texto de cada disposición y sus versiones, sin necesidad de cuenta.
+- **[API REST para desarrolladores](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=equatorial-guinea)**: la misma búsqueda en JSON, sin clave. Consulte la [documentación aquí](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Spanish or in English.
+Ambos asistentes leen el registro a través del conector gratuito Global law (MCP, `https://global-law.lexifina.com/mcp`); la primera vez, el chat le da el enlace para añadirlo. Pregunte en español o en inglés.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**Alójelo usted mismo fácilmente.** Solo hacen falta git y Python, y las herramientas se ejecutan en su equipo:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -37,56 +43,54 @@ python3 tools/countries.py add equatorial-guinea/national/acts
 python3 tools/law.py show 2026-01-01 equatorial-guinea/national/acts/ley-general-de-trabajo/art-083.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Abierto en Claude Code, Cursor, VS Code o Codex, el clon también inicia un servidor MCP local con las mismas herramientas ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## Fechas
 
-Each commit is dated at noon, Africa/Malabo, on the day the version took effect, and carries it in its `In-force:` trailer:
+Cada commit está fechado a las doce del mediodía, hora de Africa/Malabo, del día en que la versión entró en vigor, y lleva ese día en su trailer `In-force:`:
 
-- the Ley Fundamental took effect on its promulgation after the referendum and its publication in the Boletín Oficial del Estado (its disposición final); it was promulgated in Bata on 16 February 2012, the date under which the BOE lists it, and the BOE gives no separate publication day;
-- the Ley General de Trabajo took effect "a los treinta días de su publicación en el Boletín Oficial del Estado"; the BOE's online index does not list the issue, so publication is taken as the date of the BOE's printed edition (Malabo, 31 January 2022), and the thirtieth day after it is 2 March 2022.
+- la Ley Fundamental entró en vigor con su promulgación tras el referéndum y su publicación en el Boletín Oficial del Estado (su disposición final); fue promulgada en Bata el 16 de febrero de 2012, fecha con la que la recoge el BOE, y el BOE no da un día de publicación distinto;
+- la Ley General de Trabajo entró en vigor "a los treinta días de su publicación en el Boletín Oficial del Estado"; el índice en línea del BOE no recoge el número, por lo que se toma como publicación la fecha de la edición impresa del BOE (Malabo, 31 de enero de 2022), y el trigésimo día posterior es el 2 de marzo de 2022.
 
-Each version is credited to the law that made it (`Ley 1/2012`, `Ley Núm. 4/2021`), at an address that cannot exist, so `git blame` and `git log --author` name laws; the committer is Lexifina.
+Cada versión se atribuye a la ley que la hizo (`Ley 1/2012`, `Ley Núm. 4/2021`), con una dirección que no puede existir, de modo que `git blame` y `git log --author` indican leyes; el committer es Lexifina.
 
-## How it is checked
+## Cómo se verifica
 
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before; both must match the corpus: 2 versions of 2 acts, 0 mismatches, and a second build from the same corpus gave identical hashes ([`REPRODUCE.md`](REPRODUCE.md)).
-- The Ley Fundamental is read from the PDF's own text layer (not a scan), and every word was compared with a second extraction: they differ only in the headings and title page, which are not in the article files.
-- Every paragraph and article heading of the Ley General de Trabajo was found, in order, in a second, independent extraction of its PDF; arts. 1 to 120 are all present.
-- History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigor y el día anterior; ambas lecturas deben coincidir con el corpus: 2 versiones de 2 normas, 0 discrepancias, y una segunda compilación a partir del mismo corpus dio hashes idénticos ([`REPRODUCE.md`](REPRODUCE.md)).
+- La Ley Fundamental se lee de la propia capa de texto del PDF (no de un escaneo), y cada palabra se comparó con una segunda extracción: solo difieren en los encabezados y la portada, que no están en los archivos de los artículos.
+- Cada párrafo y cada encabezado de artículo de la Ley General de Trabajo se encontró, en orden, en una segunda extracción independiente de su PDF; están todos los arts. 1 a 120.
+- La historia solo admite adiciones (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada fechado en el futuro, y los trailers de todos los commits se analizan sin errores.
 
-## What it does not show
+## Qué no muestra
 
-- **The Ley Fundamental as reformed in 2025.** Ley Nº 1/2025, de 16 de julio, reforms arts. 56.1, 80 and 84.1 and 2; the BOE publishes it only as page images, which are not transcribed, so arts. 56, 80 and 84 here are the 2012 wording.
-- **The Ley General de Trabajo as amended.** Ley Núm. 6/2026, de 10 de abril, amends some of its articles; it too is only a scan, and is not applied.
-- **Earlier constitutions.** The Ley Fundamental of 1991 and its 1995 reform were not found online with a text layer, so the history starts in 2012.
-- **Most national law.** When the record was built, the BOE's "LEYES" category held 110 laws; 2 acts are here. The Código Penal of 2022 (Ley Núm. 4/2022) was found only as a scan.
-- **Headings and page furniture.** Title and chapter headings are not in the article files (the Ley Fundamental's are in `estructura.md`); the title page and the electronic-signature line on every page are left out.
+- **La Ley Fundamental reformada en 2025.** La Ley Nº 1/2025, de 16 de julio, reforma los arts. 56.1, 80 y 84.1 y 2; el BOE solo la publica como imágenes de página, que no se transcriben, por lo que los arts. 56, 80 y 84 tienen aquí la redacción de 2012.
+- **La Ley General de Trabajo modificada.** La Ley Núm. 6/2026, de 10 de abril, modifica algunos de sus artículos; también es solo un escaneo y no se aplica.
+- **Las constituciones anteriores.** La Ley Fundamental de 1991 y su reforma de 1995 no se encontraron en línea con capa de texto, por lo que la historia comienza en 2012.
+- **La mayor parte del derecho nacional.** Cuando se construyó el registro, la categoría "LEYES" del BOE contenía 110 leyes; aquí hay 2 normas. El Código Penal de 2022 (Ley Núm. 4/2022) solo se encontró escaneado.
+- **Encabezados y elementos de página.** Los encabezados de títulos y capítulos no están en los archivos de los artículos (los de la Ley Fundamental están en `estructura.md`); se omiten la portada y la línea de firma electrónica de cada página.
 
-## Sources
+## Fuentes
 
-| Source | Kind | Past versions | Notes |
+| Fuente | Tipo | Versiones anteriores | Notas |
 | --- | --- | --- | --- |
-| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Official gazette: each law and decree as enacted, one PDF each | no | The Ley Fundamental's text and dates, and the list of its reforms; the BOE publishes no consolidation and no amendment notes |
-| BOE printed edition of Ley Núm. 4/2021 (Dirección General del B.O.E., Malabo, 31 January 2022), copy held by the [Observatoire des Forêts d'Afrique Centrale (COMIFAC)](https://www.observatoire-comifac.net) | Official edition, born-digital | no | The Ley General de Trabajo as enacted |
+| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Diario oficial: cada ley y decreto en su texto promulgado, un PDF por norma | no | El texto y las fechas de la Ley Fundamental, y la lista de sus reformas; el BOE no publica textos consolidados ni notas de modificación |
+| Edición impresa del BOE de la Ley Núm. 4/2021 (Dirección General del B.O.E., Malabo, 31 de enero de 2022), ejemplar conservado por el [Observatoire des Forêts d'Afrique Centrale (COMIFAC)](https://www.observatoire-comifac.net) | Edición oficial, nativa digital | no | La Ley General de Trabajo en su texto promulgado |
 
-## Licence
+## Licencia
 
-See [`LICENSE`](LICENSE). The texts are official legal texts of the Republic of Equatorial Guinea, as published by the Boletín Oficial del Estado, reproduced with that attribution; the BOE states no licence for its files, and their copyright status is not confirmed. Lexifina's own contributions (the arrangement, commit messages, tables and tools) are CC0 1.0.
+Véase [`LICENSE`](LICENSE). Los textos son textos jurídicos oficiales de la República de Guinea Ecuatorial, tal como los publica el Boletín Oficial del Estado, reproducidos con esa atribución; el BOE no indica ninguna licencia para sus archivos, y su situación en materia de derecho de autor no está confirmada. Las contribuciones propias de Lexifina (la organización, los mensajes de commit, las tablas y las herramientas) son CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs at build time; the scripts were written by Claude Code running Claude Opus 5.5 (see [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto normativo, y ninguno se ejecuta durante la compilación; los scripts los escribió Claude Code con Claude Opus 5.5 (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
-## En español
+Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
-Historia del derecho nacional ecuatoguineano en git: un archivo por artículo, un commit por versión en el día de su entrada en vigor, y la ley que la hizo como autora del commit. Contiene dos normas, cada una en su texto promulgado: la Ley Fundamental de Guinea Ecuatorial de 2012 y la Ley Núm. 4/2021, General de Trabajo, en vigor desde el 2 de marzo de 2022. Ninguna es el texto vigente hoy: la Ley Nº 1/2025, que reforma los artículos 56.1, 80 y 84.1 y 2 de la Ley Fundamental, y la Ley Núm. 6/2026, que modifica la Ley General de Trabajo, solo se publican escaneadas y no se aplican. Texto vigente en una fecha: `python tools/en_vigor_el.py 2025-01-01 ley-general-de-trabajo 83`. Fuente: Boletín Oficial del Estado de Guinea Ecuatorial. Ningún modelo de IA escribió texto legal.
+## Más información
 
-## More
+Del repositorio [lexifina/global-law](https://github.com/lexifina/global-law) (páginas en inglés):
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
-
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): todas las funciones y lo que cada corpus debe admitir (`git blame`, `law.py`, herramientas MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): preguntas y respuestas · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proponer cambios · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): servidor MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): cómo se ha construido · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): lo actualizado que está cada corpus · [Supervisión](https://github.com/lexifina/global-law/tree/main/monitoring): si las actualizaciones funcionan · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): cómo se vigila cada fuente oficial para detectar cambios
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): la rapidez de las herramientas, medida
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): gráficos y conexiones a través del derecho de todo el mundo
+- [Vulnerabilidades](https://github.com/lexifina/global-law/tree/main/vulnerabilities): errores en las normas tal como se publicaron
