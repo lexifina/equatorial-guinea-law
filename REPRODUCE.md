@@ -75,3 +75,17 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote Lexifina's code, chose the sources and wrote the decisions. No model wrote, summarised or transformed legal text.
+
+## Added on 2026-11-27
+
+These commits were made by the runner in `scripts/equatorial-guinea-law/runner` (`gq_boe_list.py`, `gq_fetch.py`, `gq_build.py`, `gq_spain.py`, `gq_docs.py`), not by `tools/build.py`; `data/` still describes the first build.
+
+- Layout: `ley-fundamental/` became `constitucion/` and `ley-general-de-trabajo/` became `leyes/2021/4-general-de-trabajo/` in one pure-rename commit; see `STRUCTURE.md`.
+- BOE listing: the BOE search returns at most 10 results per query, so each category was queried by date window, halving any window that returned 10 (1,007 entries). Appointments, dismissals, decorations and similar individual acts were left out (legal records only).
+- Text: each PDF's own text layer (PyMuPDF), never our OCR. PDFs whose layer comes from a scanner are tagged `Text-source: publisher OCR`; those whose layer is mostly not words (under 70% word-like tokens) are held. Articles are split at their headings; the rest of a heading line stays in the body as printed.
+- Dates: the act's own entry-into-force clause (on promulgation or signature: the date of the act; on publication; N days after publication; the day after), counted from the BOE publication day when FAOLEX gives it, otherwise from the date of the act, as the BOE's index gives no issue day. Silent acts: twenty days after publication (Código Civil, art. 1). Each commit says which in `In-force-basis:`.
+- Duplicates: one version per act; the BOE's own PDF wins over a FAOLEX copy, then the longer text.
+- Código Civil: the Spanish BOE consolidated text BOE-A-1889-4763 (API `datosabiertos/api/legislacion-consolidada`), taking for each block the last version in force on or before 1968-10-12; blocks added later are absent and BOE editorial notes are left out. The BOE's consolidated history of the Código de Comercio and the Ley de Enjuiciamiento Criminal starts only in 1996/1997, so their 1968 text cannot be read from it: not added.
+- Held: 937 items (scans with no text layer, unreadable scanner layers, policy papers, EU acts, appointments); the list is in the runner's `state.json`.
+- OHADA (`gq_ohada.py`): the Uniform Acts whose official OHADA publication on www.ohada.org has a born-digital text layer and is the version in force: the Acte uniforme portant organisation des sûretés and the Acte uniforme relatif au droit des sociétés coopératives (Journal officiel de l'OHADA n° 22 and n° 23 of 15 February 2011, French; applicable 16 May 2011), and the Uniform Act on the Contract for the Carriage of Goods by Road (2003; in force 1 January 2004, art. 31) from OHADA's official English translation (Official Bulletin, Special Edition, 24 November 2016). The other Journal officiel issues on the site are image scans, and the 2016 compilation's other acts are the superseded 1997-2000 versions: held. Headings of books, titles, chapters and sections are left out.
+- No model wrote, translated or corrected legal text.
