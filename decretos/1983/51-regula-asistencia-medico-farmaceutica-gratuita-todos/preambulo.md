@@ -1,5 +1,0 @@
-# Preámbulo
-
-República de Guinea Ecuatorial BOLETÍN OFICIAL DEL ESTADO Decreto Núm. 51/1.983, de fecha 21 de Mayo, por el que se Regula la Asistencia Médico-Farmacéutica Gratuita en todos los Hospitales y Centros Sanitarios Oficiales del Territorio Nacional.
-
-Superadas las circunstancias que aconsejaron la publicación del Decreto Núm. 128, de fecha 29 de Marzo de 1.980, regulando la Asistencia Médico-Farmacéutica Gratuita a varios sectores de la población, y habida cuenta de las irregularidades observadas en el disfrute de tal derecho por muchos de los beneficiarios, perjudicando con ello el normal funcionamiento del Servicio Sanitario, además de mermar los logros que deberían alcanzarse por los esfuerzos desplegados por el Gobierno en materia de sanidad, se hace necesaria la revisión del citado Decreto, de modo que disfruten de la gratuidad de la Asistencia Médico-Farmacéutica, aquellos Sectores Sociales que realmente la necesiten por sus niveles de ingresos. En consecuencia y a propuesta del Ministerio de Sanidad y previa deliberación del Consejo de Ministros, en su reunión celebrada el día 18 de los corrientes, D I S P O N G O:
