@@ -11,7 +11,7 @@ El derecho nacional de Guinea Ecuatorial como historia de git: un archivo por ar
 
 Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), una única historia de git para el derecho de todos los países: este es el derecho nacional de Guinea Ecuatorial, que global-law lee en `equatorial-guinea/national/acts/`.
 
-**Qué contiene ahora:** 183 normas: la Ley Fundamental (2012), el Código Civil español vigente en la independencia (1968) y 63 leyes, 18 decretos-leyes, 72 decretos, 19 órdenes, 2 resoluciones, 3 tratados, de 1980 a 2026, casi todas en su texto promulgado, además de 3 actos uniformes de la OHADA (`ohada/`). Detalle en [`STRUCTURE.md`](STRUCTURE.md) y en el `README.md` de cada carpeta.
+**Qué contiene ahora:** 180 normas: la Ley Fundamental (2012), el Código Civil español vigente en la independencia (1968) y 63 leyes, 18 decretos-leyes, 72 decretos, 19 órdenes, 2 resoluciones, 3 tratados, de 1980 a 2026, casi todas en su texto promulgado, además de 3 actos uniformes de la OHADA (`ohada/`). Detalle en [`STRUCTURE.md`](STRUCTURE.md) y en el `README.md` de cada carpeta.
 
 Cada norma es una carpeta (`constitucion/`, `codigos/codigo-civil/`, `leyes/<año>/<núm>-<objeto>/`, `decretos/<año>/...`) con un archivo por artículo, preámbulo y disposición: `leyes/2021/4-general-de-trabajo/art-083.md` es el art. 83 (Vacaciones) de la Ley General de Trabajo. Los títulos y capítulos de la Ley Fundamental están en `constitucion/estructura.md`; el `README.md` de cada carpeta enumera sus disposiciones.
 
@@ -78,9 +78,9 @@ Cada versión se atribuye a la ley que la hizo (`Ley 1/2012`, `Ley Núm. 4/2021`
 
 | Fuente | Tipo | Versiones anteriores | Notas |
 | --- | --- | --- | --- |
-| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Diario oficial: cada ley y decreto en su texto promulgado, un PDF por norma | no | El texto y las fechas de la Ley Fundamental, la lista de sus reformas y otras 39 leyes y decretos; el BOE no publica textos consolidados ni notas de modificación |
+| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Diario oficial: cada ley y decreto en su texto promulgado, un PDF por norma | no | El texto y las fechas de la Ley Fundamental, la lista de sus reformas y otras 136 leyes y decretos; el BOE no publica textos consolidados ni notas de modificación |
 | Edición impresa del BOE de la Ley Núm. 4/2021 (Dirección General del B.O.E., Malabo, 31 de enero de 2022), ejemplar conservado por el [Observatoire des Forêts d'Afrique Centrale (COMIFAC)](https://www.observatoire-comifac.net) | Edición oficial, nativa digital | no | La Ley General de Trabajo en su texto promulgado |
-| [FAOLEX](https://faolex.fao.org) (FAO) | Copia secundaria: PDF del Boletín Oficial del Estado conservados por la FAO, muchos con capa de texto de escáner | no | 14 normas que no están en línea de otro modo; marcadas `Source-status: secondary copy (FAOLEX, ...)` |
+| [FAOLEX](https://faolex.fao.org) (FAO) | Copia secundaria: PDF del Boletín Oficial del Estado conservados por la FAO, muchos con capa de texto de escáner | no | 41 normas que no están en línea de otro modo; marcadas `Source-status: secondary copy (FAOLEX, ...)` |
 | [Agencia Estatal Boletín Oficial del Estado (España)](https://www.boe.es), legislación consolidada | Texto consolidado oficial con todas las versiones de cada artículo | sí | El Código Civil vigente el 12 de octubre de 1968 |
 | [OHADA](https://www.ohada.org), Journal officiel y traducción oficial | PDF oficiales de la OHADA con capa de texto nativa | sí | 3 actos uniformes en `ohada/` |
 

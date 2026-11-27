@@ -4,7 +4,7 @@
   "name": "Equatorial Guinea",
   "level": "country",
   "repo": "https://github.com/lexifina/equatorial-guinea-law",
-  "build": "183 acts: Ley Fundamental 2012 (as enacted; 2025 reform a scan, not applied), Código Civil (Spanish text in force 1968-10-12), and 63 leyes, 18 decretos-leyes, 72 decretos, 19 ordenes, 2 resoluciones, 3 tratados from the BOE (official) and FAOLEX (secondary copies), mostly as enacted",
+  "build": "180 acts: Ley Fundamental 2012 (as enacted; 2025 reform a scan, not applied), Código Civil (Spanish text in force 1968-10-12), and 63 leyes, 18 decretos-leyes, 72 decretos, 19 ordenes, 2 resoluciones, 3 tratados from the BOE (official) and FAOLEX (secondary copies), mostly as enacted; plus 3 OHADA Uniform Acts (ohada/, official OHADA texts)",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
   "sources": 5

@@ -11,7 +11,7 @@ The national law of Equatorial Guinea as a git history: one file per article, on
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Equatorial Guinea's national law, which global-law reads at `equatorial-guinea/national/acts/`.
 
-**What is in it now:** 183 acts: the Ley Fundamental (2012), the Spanish Código Civil as in force at independence (1968), and 63 leyes, 18 decretos-leyes, 72 decretos, 19 ordenes, 2 resoluciones, 3 tratados, from 1980 to 2026, mostly as enacted, plus 3 OHADA Uniform Acts (`ohada/`). Details in [`STRUCTURE.md`](STRUCTURE.md) and each folder's `README.md`.
+**What is in it now:** 180 acts: the Ley Fundamental (2012), the Spanish Código Civil as in force at independence (1968), and 63 leyes, 18 decretos-leyes, 72 decretos, 19 ordenes, 2 resoluciones, 3 tratados, from 1980 to 2026, mostly as enacted, plus 3 OHADA Uniform Acts (`ohada/`). Details in [`STRUCTURE.md`](STRUCTURE.md) and each folder's `README.md`.
 
 Each act is a folder (`constitucion/`, `codigos/codigo-civil/`, `leyes/<year>/<number>-<subject>/`, `decretos/<year>/...`) with one file per article, preamble and provision: `leyes/2021/4-general-de-trabajo/art-083.md` is art. 83 (Vacaciones) of the Ley General de Trabajo. The Ley Fundamental's titles and chapters are in `constitucion/estructura.md`; each folder's `README.md` lists its provisions.
 
@@ -78,9 +78,9 @@ Each version is credited to the law that made it (`Ley 1/2012`, `Ley Núm. 4/202
 
 | Source | Kind | Past versions | Notes |
 | --- | --- | --- | --- |
-| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Official gazette: each law and decree as enacted, one PDF each | no | The Ley Fundamental's text and dates, the list of its reforms, and 39 further laws and decrees; the BOE publishes no consolidation and no amendment notes |
+| [Boletín Oficial del Estado](https://boe.gob.gq) (Presidencia del Gobierno) | Official gazette: each law and decree as enacted, one PDF each | no | The Ley Fundamental's text and dates, the list of its reforms, and 136 further laws and decrees; the BOE publishes no consolidation and no amendment notes |
 | BOE printed edition of Ley Núm. 4/2021 (Dirección General del B.O.E., Malabo, 31 January 2022), copy held by the [Observatoire des Forêts d'Afrique Centrale (COMIFAC)](https://www.observatoire-comifac.net) | Official edition, born-digital | no | The Ley General de Trabajo as enacted |
-| [FAOLEX](https://faolex.fao.org) (FAO) | Secondary copy: Boletín Oficial del Estado PDFs held by FAO, many with a scanner text layer | no | 14 acts not otherwise online; tagged `Source-status: secondary copy (FAOLEX, ...)` |
+| [FAOLEX](https://faolex.fao.org) (FAO) | Secondary copy: Boletín Oficial del Estado PDFs held by FAO, many with a scanner text layer | no | 41 acts not otherwise online; tagged `Source-status: secondary copy (FAOLEX, ...)` |
 | [Agencia Estatal Boletín Oficial del Estado (Spain)](https://www.boe.es), consolidated legislation | Official consolidated text with every version of every article | yes | The Código Civil as in force on 12 October 1968 |
 | [OHADA](https://www.ohada.org), Journal officiel and official translation | Official OHADA PDFs with a born-digital text layer | yes | 3 Uniform Acts in `ohada/` |
 
