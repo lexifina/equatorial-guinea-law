@@ -6,20 +6,20 @@
 <text x="781.3" y="43" text-anchor="middle" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#5f6e66">record to Oct 30, 2026</text>
 <text x="28" y="44" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#14201a">Equatoguinean law as a git history</text>
 <rect x="28" y="70" width="824" height="72" rx="8" fill="#f4f6f5"/>
-<text x="44.0" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">183</text>
+<text x="44.0" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">16</text>
 <text x="44.0" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">acts</text>
-<line x1="132.4" y1="86" x2="132.4" y2="126" stroke="#dfe5e1"/>
-<text x="148.4" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">185</text>
-<text x="148.4" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">changes, as commits</text>
-<line x1="301.1" y1="86" x2="301.1" y2="126" stroke="#dfe5e1"/>
-<text x="317.1" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">8,502</text>
-<text x="317.1" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">provision files</text>
-<line x1="451.0" y1="86" x2="451.0" y2="126" stroke="#dfe5e1"/>
-<text x="467.0" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">183</text>
-<text x="467.0" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">laws and publishers credited</text>
-<line x1="670.7" y1="86" x2="670.7" y2="126" stroke="#dfe5e1"/>
-<text x="686.7" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">1968–2026</text>
-<text x="686.7" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">years of history</text>
+<line x1="122.2" y1="86" x2="122.2" y2="126" stroke="#dfe5e1"/>
+<text x="138.2" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">187</text>
+<text x="138.2" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">changes, as commits</text>
+<line x1="293.4" y1="86" x2="293.4" y2="126" stroke="#dfe5e1"/>
+<text x="309.4" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">8,502</text>
+<text x="309.4" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">provision files</text>
+<line x1="445.8" y1="86" x2="445.8" y2="126" stroke="#dfe5e1"/>
+<text x="461.8" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">183</text>
+<text x="461.8" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">laws and publishers credited</text>
+<line x1="668.1" y1="86" x2="668.1" y2="126" stroke="#dfe5e1"/>
+<text x="684.1" y="105" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#14201a">1968–2026</text>
+<text x="684.1" y="126" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#5f6e66">years of history</text>
 <rect x="28" y="160" width="824" height="236" rx="8" fill="#f4f6f5"/>
 <text x="46" y="188" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#14201a">Changes by the year they took effect</text>
 <line x1="90" y1="346.0" x2="834" y2="346.0" stroke="#e8ede9"/>
@@ -69,9 +69,9 @@
 <text x="625.9" y="363" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#5f6e66">2010</text>
 <rect x="632.64" y="304.6" width="11.81" height="41.4" rx="1.5" fill="url(#yg-light)"><title>2011: 6 changes took effect</title></rect>
 <rect x="645.25" y="311.5" width="11.81" height="34.5" rx="1.5" fill="url(#yg-light)"><title>2012: 5 changes took effect</title></rect>
-<rect x="657.86" y="311.5" width="11.81" height="34.5" rx="1.5" fill="url(#yg-light)"><title>2013: 5 changes took effect</title></rect>
+<rect x="657.86" y="304.6" width="11.81" height="41.4" rx="1.5" fill="url(#yg-light)"><title>2013: 6 changes took effect</title></rect>
 <rect x="670.47" y="290.8" width="11.81" height="55.2" rx="1.5" fill="url(#yg-light)"><title>2014: 8 changes took effect</title></rect>
-<rect x="683.08" y="332.2" width="11.81" height="13.8" rx="1.5" fill="url(#yg-light)"><title>2015: 2 changes took effect</title></rect>
+<rect x="683.08" y="325.3" width="11.81" height="20.7" rx="1.5" fill="url(#yg-light)"><title>2015: 3 changes took effect</title></rect>
 <text x="689.0" y="363" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#5f6e66">2015</text>
 <rect x="695.69" y="318.4" width="11.81" height="27.6" rx="1.5" fill="url(#yg-light)"><title>2016: 4 changes took effect</title></rect>
 <rect x="708.30" y="277.0" width="11.81" height="69.0" rx="1.5" fill="url(#yg-light)"><title>2017: 10 changes took effect</title></rect>
@@ -84,7 +84,7 @@
 <rect x="771.35" y="339.1" width="11.81" height="6.9" rx="1.5" fill="url(#yg-light)"><title>2022: 1 change took effect</title></rect>
 <text x="815.1" y="363" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#5f6e66">2025</text>
 <rect x="821.79" y="325.3" width="11.81" height="20.7" rx="1.5" fill="url(#yg-light)"><title>2026: 3 changes took effect</title></rect>
-<text x="46" y="382" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11.5" fill="#5f6e66">185 changes dated by their in-force day.</text>
+<text x="46" y="382" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11.5" fill="#5f6e66">187 changes dated by their in-force day.</text>
 <rect x="28" y="412" width="824" height="197" rx="8" fill="#f4f6f5"/>
 <text x="46" y="440" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#14201a">Completeness, checked against the official sources on Nov 27, 2026</text>
 <text x="46.0" y="470" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#14201a">Constitution</text>
@@ -104,8 +104,8 @@
 <text x="834.0" y="515" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#14201a">0%</text>
 <text x="46.0" y="560" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#14201a">National law</text>
 <text x="46.0" y="581" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11.5" fill="#5f6e66">estimate (low confidence)</text>
-<g><title>National law: 69%</title><rect x="294.0" y="554.0" width="62.0" height="4" rx="2" fill="#e7efe9"/><rect x="294.0" y="554.0" width="42.7" height="4" rx="2" fill="#9a6200"/></g>
-<text x="420.0" y="560" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#14201a">~69%</text>
+<g><title>National law: 7.6%</title><rect x="294.0" y="554.0" width="62.0" height="4" rx="2" fill="#e7efe9"/><rect x="294.0" y="554.0" width="4.7" height="4" rx="2" fill="#c0392b"/></g>
+<text x="420.0" y="560" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#14201a">~7.6%</text>
 <rect x="28" y="625" width="824" height="152" rx="8" fill="#f4f6f5"/>
 <text x="46" y="653" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#14201a">Correctness of what is held</text>
 <text x="46.0" y="683" font-family="Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#14201a">Changes with an in-force date</text>
